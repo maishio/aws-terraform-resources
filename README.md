@@ -52,6 +52,6 @@ terraform apply
 
 This repository includes Terraform configurations for the following AWS resources:
 
-- [Amazon VPC](./vpc/README.md)
+- [Amazon VPC](./vpc)
 
 (And more)
