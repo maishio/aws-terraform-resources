@@ -52,6 +52,7 @@ terraform apply
 
 This repository includes Terraform configurations for the following AWS resources:
 
+- [Amazon VPC Subnet](./subnet)
 - [Amazon VPC](./vpc)
 
 (And more)
