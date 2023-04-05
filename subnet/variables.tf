@@ -1,26 +1,25 @@
-# --------------------------------------------------------------------------------
-# Amazon VPC Subnet variable
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet
-# --------------------------------------------------------------------------------
-
-variable "cidr_blocks" {
-  type = list(string)
-}
-
-variable "subnet" {
-  type = string
-}
-
-variable "vpc_id" {
-  type = string
-}
+# Amazon VPC Subnet
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet
 
 variable "map_public_ip_on_launch" {
-  type    = string
-  default = false
+  description = "Whether to assign a public IP to instances in the subnet"
+  type        = string
+  default     = false
+}
+
+variable "subnets" {
+  description = "Array of maps with subnet attributes"
+  type        = list(map(string))
+  default     = []
 }
 
 variable "tags" {
-  type    = map(string)
-  default = {}
+  description = "A mapping of tags to assign to the resource"
+  type        = map(string)
+  default     = {}
+}
+
+variable "vpc_id" {
+  description = "The VPC ID"
+  type        = string
 }
