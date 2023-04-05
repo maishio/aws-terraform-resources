@@ -52,8 +52,6 @@ terraform apply
 
 This repository includes Terraform configurations for the following AWS resources:
 
-- AWS Certificate Manager (ACM)
-- Application Load Balancer (ALB) / Network Load Balancer (NLB)
-- Amazon Cognito
+- [Amazon VPC](./vpc/README.md)
 
 (And more)
