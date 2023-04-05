@@ -40,8 +40,17 @@ No modules.
 ## Usage
 
 ```hcl
+
+# Current Availability Zones
+
+data "aws_availability_zones" "this" {
+  state = "available"
+}
+
+# Create Subnets
+
 module "public_subnet" {
-  source = "git::https://github.com/sundai-edfu/terraform-aws-resources.git//subnet"
+  source = "git::https://github.com/maishio/terraform-aws-resources.git//subnet"
   vpc_id = module.vpc.vpc.id
   subnets = [
     {
