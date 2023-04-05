@@ -20,6 +20,6 @@ variable "tags" {
 }
 
 variable "vpc_id" {
-  description = "The VPC ID"
+  description = "VPC ID"
   type        = string
 }
