@@ -1,4 +1,4 @@
-# Amazon VPC Elastic IP Terraform Resource
+# Amazon EC2 Elastic IP Terraform Resource
 
 ## Requirements
 

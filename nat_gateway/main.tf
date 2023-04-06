@@ -8,7 +8,7 @@ resource "aws_nat_gateway" "this" {
   tags          = merge(var.tags, { "Name" = var.nat_gateways[count.index].name })
 }
 
-# Amazon VPC Elastic IP
+# Amazon EC2 Elastic IP
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
 
 resource "aws_eip" "this" {
