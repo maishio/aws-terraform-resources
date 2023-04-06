@@ -53,11 +53,11 @@ module "nat_gateway" {
   source = "git::https://github.com/maishio/terraform-aws-resources.git//nat_gateway/complete"
   nat_gateways = [
     {
-      name      = "${var.tags.alias}-${var.tags.env}-ngw-${data.aws_availability_zones.this.names[0]}"
+      name      = "${var.tags.service}-${var.tags.env}-ngw-${data.aws_availability_zones.this.names[0]}"
       subnet_id = module.public_subnet.subnet.0.id
     },
     {
-      name      = "${var.tags.alias}-${var.tags.env}-ngw-${data.aws_availability_zones.this.names[1]}"
+      name      = "${var.tags.service}-${var.tags.env}-ngw-${data.aws_availability_zones.this.names[1]}"
       subnet_id = module.public_subnet.subnet.1.id
     },
   ]

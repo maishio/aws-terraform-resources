@@ -41,7 +41,7 @@ No modules.
 ```hcl
 module "internet_gateway" {
   source                = "git::https://github.com/maishio/terraform-aws-resources.git//internet_gateway"
-  internet_gateway_name = "${var.tags.alias}-${var.tags.env}-igw"
+  internet_gateway_name = "${var.tags.service}-${var.tags.env}-igw"
   tags                  = var.tags
   vpc_id                = module.vpc.vpc.id
 }

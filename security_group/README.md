@@ -46,7 +46,7 @@ No modules.
 ```hcl
 module "security_group" {
   source              = "git::https://github.com/maishio/terraform-aws-resources.git//security_group"
-  security_group_name = "${var.tags.alias}-${var.tags.env}-alb-sg"
+  security_group_name = "${var.tags.service}-${var.tags.env}-alb-sg"
   tags                = var.tags
   vpc_id              = var.vpc_id
   ingress_rule = {

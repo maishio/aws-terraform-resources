@@ -38,3 +38,14 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_vpc"></a> [vpc](#output\_vpc) | n/a |
+
+## Usage
+
+```hcl
+module "vpc" {
+  source     = "git::https://github.com/maishio/terraform-aws-resources.git//vpc"
+  cidr_block = "10.0.0.0/16"
+  tags       = var.tags
+  vpc_name   = "${var.tags.service}-${var.tags.env}-vpc"
+}
+```

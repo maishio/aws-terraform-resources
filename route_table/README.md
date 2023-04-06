@@ -59,7 +59,7 @@ module "public_route_table" {
       gateway_id = module.internet_gateway.internet_gateway.id
     }
   ]
-  route_table_name = "${var.tags.alias}-${var.tags.env}-public"
+  route_table_name = "${var.tags.service}-${var.tags.env}-public"
   subnet_ids       = module.public_subnet.subnet.*.id
   tags             = var.tags
   vpc_id           = module.vpc.vpc.id
@@ -75,7 +75,7 @@ module "private_route_table_1a" {
       nat_gateway_id = module.nat_gateway.nat_gateway.0.id
     }
   ]
-  route_table_name = "${var.tags.alias}-${var.tags.env}-pri-${data.aws_availability_zones.this.names[0]}"
+  route_table_name = "${var.tags.service}-${var.tags.env}-pri-${data.aws_availability_zones.this.names[0]}"
   subnet_ids       = [module.private_subnet.subnet.0.id]
   tags             = var.tags
   vpc_id           = module.vpc.vpc.id

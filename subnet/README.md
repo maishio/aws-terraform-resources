@@ -56,12 +56,12 @@ module "public_subnet" {
     {
       availability_zone = data.aws_availability_zones.this.names[0]
       cidr_block        = "10.0.0.0/24"
-      name              = "${var.tags.alias}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[0]}",
+      name              = "${var.tags.service}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[0]}",
     },
     {
       availability_zone = data.aws_availability_zones.this.names[1]
       cidr_block        = "10.0.1.0/24"
-      name              = "${var.tags.alias}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[1]}",
+      name              = "${var.tags.service}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[1]}",
     },
   ]
   tags = var.tags
