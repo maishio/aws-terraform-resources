@@ -1,4 +1,4 @@
-# AWS VPC Route Table Terraform Resource
+# Amazon VPC Route Table Terraform Resource
 
 ## Requirements
 

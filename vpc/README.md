@@ -1,4 +1,4 @@
-# AWS VPC Terraform Resource
+# Amazon VPC Terraform Resource
 
 ## Requirements
 

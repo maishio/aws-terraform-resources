@@ -1,4 +1,4 @@
-# AWS VPC Internet Gateway Terraform Resource
+# Amazon VPC Internet Gateway Terraform Resource
 
 ## Requirements
 

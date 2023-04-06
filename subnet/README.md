@@ -1,4 +1,4 @@
-# AWS VPC Subnet Terraform Resource
+# Amazon VPC Subnet Terraform Resource
 
 ## Requirements
 
