@@ -1,17 +1,18 @@
-# --------------------------------------------------------------------------------
-# Amazon VPC Internet Gateway variable
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway
-# --------------------------------------------------------------------------------
+# Amazon VPC Internet Gateway
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway
 
 variable "internet_gateway_name" {
-  type = string
+  description = "Internet Gateway name"
+  type        = string
 }
 
 variable "vpc_id" {
-  type = string
+  description = "VPC ID"
+  type        = string
 }
 
 variable "tags" {
-  type    = map(string)
-  default = {}
+  description = "A mapping of tags to assign to the resource"
+  type        = map(string)
+  default     = {}
 }
