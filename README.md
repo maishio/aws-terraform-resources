@@ -55,6 +55,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon EC2 Elastic IP](./vpc_endpoint)
 - [Amazon EC2 Key Pair](./key_pair)
 - [Amazon VPC](./vpc)
+- [Amazon VPC Endpoint](./endpoint)
 - [Amazon VPC Internet Gateway](./internet_gateway)
 - [Amazon VPC Nat Gateway](./nat_gateway)
 - [Amazon VPC Route Table](./route_table)
