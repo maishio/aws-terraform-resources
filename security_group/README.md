@@ -44,7 +44,7 @@ No modules.
 ## Usage
 
 ```hcl
-module "alb_sg" {
+module "security_group" {
   source              = "git::https://github.com/maishio/terraform-aws-resources.git//security_group"
   security_group_name = "${var.tags.alias}-${var.tags.env}-alb-sg"
   tags                = var.tags
