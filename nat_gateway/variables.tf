@@ -1,19 +1,23 @@
-# --------------------------------------------------------------------------------
-# Amazon VPC Nat Gateway variable
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/nat_gateway
-# --------------------------------------------------------------------------------
+# Amazon VPC Nat Gateway
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/nat_gateway
 
-variable "subnet_ids" {
-  type    = list(string)
-  default = []
-}
-
-variable "vpc" {
-  type    = bool
-  default = true
+variable "nat_gateways" {
+  description = "A list containing attributes of NAT Gateways"
+  type        = list(map(string))
+  default     = []
 }
 
 variable "tags" {
-  type    = map(string)
-  default = {}
+  description = "A mapping of tags to assign to the resource"
+  type        = map(string)
+  default     = {}
+}
+
+# Amazon VPC Elastic IP
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
+
+variable "vpc" {
+  description = "Boolean if the EIP is in a VPC or not"
+  type        = bool
+  default     = true
 }
