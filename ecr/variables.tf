@@ -1,37 +1,45 @@
-# --------------------------------------------------------------------------------
-# Amazon ECR variable
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
-# --------------------------------------------------------------------------------
+# Amazon ECR
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
 
-variable "name" {
-  type = string
+variable "force_delete" {
+  description = "If true, will delete the repository even if it contains images."
+  type        = bool
+  default     = false
 }
 
 variable "image_tag_mutability" {
-  type    = string
-  default = "MUTABLE"
+  description = "The tag mutability setting for the repository. Must be one of: MUTABLE or IMMUTABLE."
+  type        = string
+  default     = "MUTABLE"
+}
+
+variable "name" {
+  description = "Name of the repository."
+  type        = string
 }
 
 variable "scan_on_push" {
-  type    = bool
-  default = true
+  description = "Indicates whether images are scanned after being pushed to the repository (true) or not (false)."
+  type        = bool
+  default     = true
 }
 
 variable "tags" {
-  type    = map(string)
-  default = {}
+  description = "A mapping of tags to assign to the resource."
+  type        = map(string)
+  default     = {}
 }
 
-# --------------------------------------------------------------------------------
-# Amazon ECR Lifecycle Policy variable
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_lifecycle_policy
-# --------------------------------------------------------------------------------
+# Amazon ECR Lifecycle Policy
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_lifecycle_policy
 
 variable "path" {
-  type = string
+  description = "Path to the lifecycle policy template."
+  type        = string
 }
 
 variable "vars" {
-  type    = map(string)
-  default = {}
+  description = "Variables to pass to the lifecycle policy template."
+  type        = map(string)
+  default     = {}
 }
