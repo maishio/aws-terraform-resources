@@ -65,5 +65,6 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon VPC Subnet](./subnet)
 - [AWS Certificate Manager](./acm)
 - [AWS IAM](./iam)
+- [AWS Secrets Manager](./secretsmanager)
 
 (And more)
