@@ -1,7 +1,5 @@
-# --------------------------------------------------------------------------------
-# Amazon VPC resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc
-# --------------------------------------------------------------------------------
+# Amazon VPC
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc
 
 resource "aws_vpc" "this" {
   cidr_block           = var.cidr_block
