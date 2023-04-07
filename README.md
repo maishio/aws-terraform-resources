@@ -64,5 +64,6 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon VPC Security Group](./security_group)
 - [Amazon VPC Subnet](./subnet)
 - [AWS Certificate Manager](./acm)
+- [AWS IAM](./iam)
 
 (And more)
