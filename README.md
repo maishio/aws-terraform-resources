@@ -66,6 +66,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS Certificate Manager](./acm)
 - [AWS CloudTrail](./cloudtrail)
 - [AWS CodeCommit](./codecommit)
+- [AWS Config](./config)
 - [AWS IAM](./iam)
 - [AWS Secrets Manager](./secretsmanager)
 
