@@ -1,4 +1,4 @@
-# Amazon CodeCommit Terraform Resource
+# AWS CodeCommit Terraform Resource
 
 ## Requirements
 
