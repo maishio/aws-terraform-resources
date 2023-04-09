@@ -107,7 +107,7 @@ variable "principal" {
 }
 
 variable "source_arn" {
-  description = "This parameter is used when allowing cross-account access, or for S3 and SES."
+  description = "ARN of the invokable AWS resource."
   type        = string
   default     = null
 }
