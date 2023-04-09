@@ -2,7 +2,7 @@
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table
 
 variable "route" {
-  description = "A list of route objects"
+  description = "A list of route objects for the dynamic block."
   type        = any
   default     = []
 }
