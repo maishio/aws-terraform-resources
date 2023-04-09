@@ -69,6 +69,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS CodeCommit](./codecommit)
 - [AWS Config](./config)
 - [AWS IAM](./iam)
+- [AWS Lambda](./lambda)
 - [AWS Secrets Manager](./secretsmanager)
 
 (And more)
