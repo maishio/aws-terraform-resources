@@ -1,7 +1,5 @@
-# --------------------------------------------------------------------------------
-# AWS Lambda resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function
-# --------------------------------------------------------------------------------
+# AWS Lambda
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function
 
 resource "aws_lambda_function" "this" {
   description      = var.description
@@ -43,10 +41,8 @@ resource "aws_lambda_function" "this" {
   }
 }
 
-# --------------------------------------------------------------------------------
-# AWS Lambda Permission resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_permission
-# --------------------------------------------------------------------------------
+# AWS Lambda Permission
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_permission
 
 resource "aws_lambda_permission" "this" {
   action        = var.action
@@ -56,10 +52,8 @@ resource "aws_lambda_permission" "this" {
   statement_id  = var.statement_id
 }
 
-# --------------------------------------------------------------------------------
-# Amazon S3 Bucket Notification resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_notification
-# --------------------------------------------------------------------------------
+# Amazon S3 Bucket Notification
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_notification
 
 resource "aws_s3_bucket_notification" "this" {
   count  = var.create_s3_bucket_notification ? 1 : 0
