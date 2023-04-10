@@ -57,12 +57,6 @@ variable "arn" {
   type        = string
 }
 
-variable "event_bus_name" {
-  description = "Name of the event bus to associate with this rule. If omitted, the default event bus is used."
-  type        = string
-  default     = "default"
-}
-
 variable "input_path" {
   description = "Path to the input file."
   type        = string
