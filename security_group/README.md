@@ -1,4 +1,4 @@
-# Amazon VPC Internet Gateway Terraform Resource
+# Amazon VPC Security Group Terraform Resource
 
 ## Requirements
 
