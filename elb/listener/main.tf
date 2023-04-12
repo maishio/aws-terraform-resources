@@ -12,8 +12,8 @@ resource "aws_lb_listener" "this" {
   dynamic "default_action" {
     for_each = var.default_action
     content {
-      type             = default_action.value.type
       target_group_arn = lookup(default_action.value, "target_group_arn", null)
+      type             = default_action.value.type
 
       dynamic "authenticate_cognito" {
         for_each = lookup(default_action.value, "authenticate_cognito", [])
