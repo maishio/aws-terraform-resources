@@ -21,6 +21,7 @@ variable "target_group_arn" {
 variable "type" {
   description = "Type of routing action."
   type        = string
+  default     = "forward"
 }
 
 variable "values" {
