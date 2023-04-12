@@ -59,6 +59,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon ECR](./ecr)
 - [Amazon EventBridge](./eventbridge)
 - [Amazon GuardDuty](./guardduty)
+- [Amazon Route53](./route53)
 - [Amazon VPC](./vpc)
 - [Amazon VPC Endpoint](./endpoint)
 - [Amazon VPC Internet Gateway](./internet_gateway)
