@@ -61,6 +61,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon EventBridge](./eventbridge)
 - [Amazon GuardDuty](./guardduty)
 - [Amazon Route53](./route53)
+- [Amazon S3](./s3)
 - [Amazon VPC](./vpc)
 - [Amazon VPC Endpoint](./endpoint)
 - [Amazon VPC Internet Gateway](./internet_gateway)
