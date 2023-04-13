@@ -1,7 +1,5 @@
-# --------------------------------------------------------------------------------
-# Amazon Cognito User Pool resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
-# --------------------------------------------------------------------------------
+# Amazon Cognito User Pool
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
 
 resource "aws_cognito_user_pool" "this" {
   auto_verified_attributes = var.auto_verified_attributes
@@ -31,10 +29,8 @@ resource "aws_cognito_user_pool" "this" {
   }
 }
 
-# --------------------------------------------------------------------------------
-# Amazon Cognito User Pool Client resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
-# --------------------------------------------------------------------------------
+# Amazon Cognito User Pool Client
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
 
 resource "aws_cognito_user_pool_client" "this" {
   access_token_validity                = var.access_token_validity
@@ -55,30 +51,11 @@ resource "aws_cognito_user_pool_client" "this" {
   write_attributes                     = var.write_attributes
 }
 
-# --------------------------------------------------------------------------------
-# Amazon Cognito User Pool Domain resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain
-# --------------------------------------------------------------------------------
+# Amazon Cognito User Pool Domain
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain
 
 resource "aws_cognito_user_pool_domain" "this" {
   certificate_arn = var.certificate_arn
   domain          = var.domain
   user_pool_id    = aws_cognito_user_pool.this.id
-}
-
-# --------------------------------------------------------------------------------
-# Amazon Route53 Record resource
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record
-# --------------------------------------------------------------------------------
-
-resource "aws_route53_record" "this" {
-  name    = aws_cognito_user_pool_domain.this.domain
-  type    = var.type
-  zone_id = var.zone_id
-
-  alias {
-    evaluate_target_health = var.evaluate_target_health
-    name                   = aws_cognito_user_pool_domain.this.cloudfront_distribution_arn
-    zone_id                = "Z2FDTNDATAQYW2"
-  }
 }
