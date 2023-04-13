@@ -53,6 +53,7 @@ terraform apply
 This repository includes Terraform configurations for the following AWS resources:
 
 - [Amazon CloudWatch](./cloudwatch)
+- [Amazon Cognito](./cognito)
 - [Amazon EC2 Elastic IP](./vpc_endpoint)
 - [Amazon EC2 Instance](./ec2)
 - [Amazon EC2 Key Pair](./key_pair)
