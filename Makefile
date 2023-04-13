@@ -7,5 +7,6 @@ help:
 	@cat Makefile
 	@echo
 
-fmt:
-	terraform fmt --recursive
+clean:
+	find ./terraform -name ".terraform" | xargs rm -rf
+	find ./terraform -name ".terraform.lock.hcl" | xargs rm -rf
