@@ -54,7 +54,7 @@ This repository includes Terraform configurations for the following AWS resource
 
 - [Amazon CloudWatch](./terraform/cloudwatch)
 - [Amazon Cognito](./terraform/cognito)
-- [Amazon EC2 Elastic IP](./terraform/vpc_endpoint)
+- [Amazon EC2 Elastic IP](./terraform/elastic_ip)
 - [Amazon EC2 Instance](./terraform/ec2)
 - [Amazon EC2 Key Pair](./terraform/key_pair)
 - [Amazon ECR](./terraform/ecr)
