@@ -35,9 +35,15 @@ variable "tags" {
   default     = {}
 }
 
-variable "task_definition" {
-  description = "ARN of the task definition that creates the tasks."
+variable "task_family" {
+  description = "Name of the task definition."
   type        = string
+}
+
+variable "task_revision" {
+  description = "Revision of the task definition."
+  type        = number
+  default     = 0
 }
 
 ### Capacity Provider Strategy ###

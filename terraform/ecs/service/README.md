@@ -21,6 +21,7 @@ No modules.
 | Name | Type |
 |------|------|
 | [aws_ecs_service.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service) | resource |
+| [aws_ecs_task_definition.this](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/data-sources/ecs_task_definition) | data source |
 
 ## Inputs
 
@@ -39,7 +40,8 @@ No modules.
 | <a name="input_service_registries"></a> [service\_registries](#input\_service\_registries) | Dynamic block for the service registries. | `list(map(string))` | `[]` | no |
 | <a name="input_subnets"></a> [subnets](#input\_subnets) | Subnets associated with the task or service. | `list(string)` | `[]` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource. | `map(string)` | `{}` | no |
-| <a name="input_task_definition"></a> [task\_definition](#input\_task\_definition) | ARN of the task definition that creates the tasks. | `string` | n/a | yes |
+| <a name="input_task_family"></a> [task\_family](#input\_task\_family) | Name of the task definition. | `string` | n/a | yes |
+| <a name="input_task_revision"></a> [task\_revision](#input\_task\_revision) | Revision of the task definition. | `number` | `0` | no |
 
 ## Outputs
 
