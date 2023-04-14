@@ -56,6 +56,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon Cognito](./terraform/cognito)
 - [Amazon EC2](./terraform/ec2)
 - [Amazon ECR](./terraform/ecr)
+- [Amazon ECS](./terraform/ecs)
 - [Amazon EventBridge](./terraform/eventbridge)
 - [Amazon GuardDuty](./terraform/guardduty)
 - [Amazon Route53](./terraform/route53)
