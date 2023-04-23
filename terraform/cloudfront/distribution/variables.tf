@@ -73,6 +73,25 @@ variable "web_acl_id" {
   default     = null
 }
 
+/* Logging Config Arguments */
+
+variable "bucket" {
+  description = "Amazon S3 bucket to store the access logs in."
+  type        = string
+}
+
+variable "include_cookies" {
+  description = "Whether to include cookies in access logs."
+  type        = bool
+  default     = false
+}
+
+variable "prefix" {
+  description = "Prefix to the access log filenames for this distribution."
+  type        = string
+  default     = null
+}
+
 /* Default Cache Behavior Arguments */
 
 variable "allowed_methods" {

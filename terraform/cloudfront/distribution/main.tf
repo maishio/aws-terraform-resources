@@ -14,6 +14,12 @@ resource "aws_cloudfront_distribution" "this" {
   wait_for_deployment = var.wait_for_deployment
   web_acl_id          = var.web_acl_id
 
+  logging_config {
+    bucket          = var.bucket
+    include_cookies = var.include_cookies
+    prefix          = var.prefix
+  }
+
   default_cache_behavior {
     allowed_methods            = var.allowed_methods
     cached_methods             = var.cached_methods
