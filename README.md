@@ -46,6 +46,7 @@ terraform apply
 
 This repository includes Terraform configurations for the following AWS resources:
 
+- [Amazon Athena](./terraform/athena)
 - [Amazon CloudFront](./terraform/cloudfront)
 - [Amazon CloudWatch](./terraform/cloudwatch)
 - [Amazon Cognito](./terraform/cognito)
