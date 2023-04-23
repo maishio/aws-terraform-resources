@@ -1,30 +1,26 @@
 # Terraform AWS Resources
 
-This repository contains a collection of Terraform configurations for commonly used AWS resources. These configurations can be utilized as a starting point for your own AWS infrastructure projects.
+This repository contains a collection of Terraform code to create AWS resources for general purpose use.
 
-## Table of Contents ##
+## Prerequisites
 
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
-- [Resources](#resources)
+To use the code in this repository, the following software must be installed.
 
-## Prerequisites ##
+- [AWS CLI](https://aws.amazon.com/cli/)
+- [Terraform](https://www.terraform.io/downloads.html)
 
-- [Terraform](https://www.terraform.io/downloads.html) >= 1.3.x
-- [AWS CLI](https://aws.amazon.com/cli/) >= 2.0.x
-- [AWS Account](https://aws.amazon.com/)
+## Usage
 
-## Usage ##
-
-1. Clone this repository:
+1. Log in to your AWS account using the AWS CLI:
 
 ```bash
-git clone https://github.com/your-username/terraform-aws-resources.git
+aws configure
 ```
 
-2. Change into the repository directory:
+2. Clone this repository:
 
 ```bash
+git clone https://github.com/maishio/terraform-aws-resources.git
 cd terraform-aws-resources/path/to/resource
 ```
 
@@ -34,24 +30,23 @@ cd terraform-aws-resources/path/to/resource
 terraform init
 ```
 
-4. Create a `terraform.tfvars` file with required variables specific to the resource. Refer to the `variables.tf` file for required inputs.
-
-5. plan the Terraform configuration:
+4. plan the Terraform configuration:
 
 ```bash
 terraform plan
 ```
 
-6. Apply the Terraform configuration:
+5. Apply the Terraform configuration:
 
 ```bash
 terraform apply
 ```
 
-## Resources ##
+## Resources
 
 This repository includes Terraform configurations for the following AWS resources:
 
+- [Amazon CloudFront](./terraform/cloudfront)
 - [Amazon CloudWatch](./terraform/cloudwatch)
 - [Amazon Cognito](./terraform/cognito)
 - [Amazon EC2](./terraform/ec2)
