@@ -65,6 +65,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS IAM](./terraform/iam)
 - [AWS Lambda](./terraform/lambda)
 - [AWS Secrets Manager](./terraform/secretsmanager)
+- [AWS WAFv2](./terraform/wafv2)
 - [ELB (Elastic Load Balancer)](./terraform/elb)
 
 (And more)
