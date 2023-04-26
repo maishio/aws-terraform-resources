@@ -15,3 +15,4 @@ This repository includes Terraform configurations for the following Amazon S3 re
 - [Amazon S3 Bucket Public Access Block](./bucket_public_access_block)
 - [Amazon S3 Bucket Server Side Encryption Configuration](./bucket_server_side_encryption_configuration)
 - [Amazon S3 Bucket Versioning](./bucket_versioning)
+- [Amazon S3 Object](./object)
