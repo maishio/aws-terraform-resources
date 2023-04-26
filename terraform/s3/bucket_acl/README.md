@@ -24,10 +24,11 @@ No modules.
 
 ## Inputs
 
-| Name                                                | Description                        | Type     | Default | Required |
-| --------------------------------------------------- | ---------------------------------- | -------- | ------- | :------: |
-| <a name="input_acl"></a> [acl](#input_acl)          | Canned ACL to apply to the bucket. | `string` | `null`  |    no    |
-| <a name="input_bucket"></a> [bucket](#input_bucket) | Name of the bucket.                | `string` | n/a     |   yes    |
+| Name                                                                                             | Description                              | Type        | Default | Required |
+| ------------------------------------------------------------------------------------------------ | ---------------------------------------- | ----------- | ------- | :------: |
+| <a name="input_access_control_policy"></a> [access_control_policy](#input_access_control_policy) | Dynamic block for access control policy. | `list(any)` | `[]`    |    no    |
+| <a name="input_acl"></a> [acl](#input_acl)                                                       | Canned ACL to apply to the bucket.       | `string`    | `null`  |    no    |
+| <a name="input_bucket"></a> [bucket](#input_bucket)                                              | Name of the bucket.                      | `string`    | n/a     |   yes    |
 
 ## Outputs
 

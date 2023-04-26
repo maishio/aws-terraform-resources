@@ -6,6 +6,12 @@ variable "bucket" {
   type        = string
 }
 
+variable "access_control_policy" {
+  description = "Dynamic block for access control policy."
+  type        = list(any)
+  default     = []
+}
+
 variable "acl" {
   description = "Canned ACL to apply to the bucket."
   type        = string
