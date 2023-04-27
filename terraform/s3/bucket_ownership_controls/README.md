@@ -27,7 +27,7 @@ No modules.
 | Name                                                                              | Description         | Type     | Default | Required |
 | --------------------------------------------------------------------------------- | ------------------- | -------- | ------- | :------: |
 | <a name="input_bucket"></a> [bucket](#input_bucket)                               | Name of the bucket. | `string` | n/a     |   yes    |
-| <a name="input_object_ownership"></a> [object_ownership](#input_object_ownership) | Object ownership.   | `bool`   | n/a     |   yes    |
+| <a name="input_object_ownership"></a> [object_ownership](#input_object_ownership) | Object ownership.   | `string` | n/a     |   yes    |
 
 ## Outputs
 
