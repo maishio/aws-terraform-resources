@@ -9,7 +9,7 @@ variable "certificate_arn" {
 
 variable "default_action" {
   description = "A list of default action objects for the dynamic block."
-  type        = any
+  type        = list(any)
   default     = []
 }
 

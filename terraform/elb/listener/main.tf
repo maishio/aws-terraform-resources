@@ -32,6 +32,18 @@ resource "aws_lb_listener" "this" {
           status_code  = lookup(fixed_response.value, "status_code", null)
         }
       }
+
+      dynamic "redirect" {
+        for_each = lookup(default_action.value, "redirect", [])
+        content {
+          host        = lookup(redirect.value, "host", null)
+          path        = lookup(redirect.value, "path", null)
+          port        = lookup(redirect.value, "port", null)
+          protocol    = lookup(redirect.value, "protocol", null)
+          query       = lookup(redirect.value, "query", null)
+          status_code = redirect.value.status_code
+        }
+      }
     }
   }
 }
