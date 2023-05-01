@@ -4,10 +4,11 @@
 resource "aws_lb_listener" "this" {
   certificate_arn   = var.certificate_arn
   load_balancer_arn = var.load_balancer_arn
+  name              = var.name
   port              = var.port
   protocol          = var.protocol
   ssl_policy        = var.ssl_policy
-  tags              = var.tags
+  tags              = merge(var.tags, { "Name" = var.name })
 
   dynamic "default_action" {
     for_each = var.default_action

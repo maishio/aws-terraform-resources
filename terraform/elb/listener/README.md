@@ -29,6 +29,7 @@ No modules.
 | <a name="input_certificate_arn"></a> [certificate_arn](#input_certificate_arn)       | ARN of the default SSL server certificate.                  | `string`      | `null`  |    no    |
 | <a name="input_default_action"></a> [default_action](#input_default_action)          | A list of default action objects for the dynamic block.     | `list(any)`   | `[]`    |    no    |
 | <a name="input_load_balancer_arn"></a> [load_balancer_arn](#input_load_balancer_arn) | ARN of the load balancer.                                   | `string`      | n/a     |   yes    |
+| <a name="input_name"></a> [name](#input_name)                                        | The name of the listener.                                   | `string`      | n/a     |   yes    |
 | <a name="input_port"></a> [port](#input_port)                                        | Port on which the load balancer is listening.               | `string`      | `null`  |    no    |
 | <a name="input_protocol"></a> [protocol](#input_protocol)                            | Protocol for connections from clients to the load balancer. | `string`      | `null`  |    no    |
 | <a name="input_ssl_policy"></a> [ssl_policy](#input_ssl_policy)                      | Name of the SSL Policy for the listener.                    | `string`      | `null`  |    no    |

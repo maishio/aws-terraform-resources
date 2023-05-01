@@ -18,6 +18,11 @@ variable "load_balancer_arn" {
   type        = string
 }
 
+variable "name" {
+  description = "The name of the listener."
+  type        = string
+}
+
 variable "port" {
   description = "Port on which the load balancer is listening."
   type        = string
