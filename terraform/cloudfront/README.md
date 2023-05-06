@@ -6,5 +6,6 @@ This repository includes Terraform configurations for the following Amazon Cloud
 
 - [Amazon CloudFront Distribution](./distribution)
 - [Amazon CloudFront Function](./function)
+- [Amazon CloudFront Origin Access Control](./origin_access_control)
 - [Amazon CloudFront Origin Access Identity](./origin_access_identity)
 - [Amazon CloudFront Response Header Policy](./response_headers_policy)
