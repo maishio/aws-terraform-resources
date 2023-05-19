@@ -54,15 +54,29 @@ resource "aws_wafv2_web_acl" "this" {
 
       statement {
         dynamic "managed_rule_group_statement" {
-          for_each = rule.value.managed_rule_group_statement
+          for_each = lookup(rule.value, "managed_rule_group_statement", [])
           content {
             name        = managed_rule_group_statement.value.name
             vendor_name = managed_rule_group_statement.value.vendor_name
           }
         }
 
+        dynamic "not_statement" {
+          for_each = lookup(rule.value, "not_statement", [])
+          content {
+            statement {
+              dynamic "geo_match_statement" {
+                for_each = lookup(not_statement.value, "geo_match_statement", [])
+                content {
+                  country_codes = geo_match_statement.value.country_codes
+                }
+              }
+            }
+          }
+        }
+
         dynamic "rate_based_statement" {
-          for_each = rule.value.rate_based_statement
+          for_each = lookup(rule.value, "rate_based_statement", [])
           content {
             aggregate_key_type = lookup(rate_based_statement.value, "aggregate_key_type", "IP")
             limit              = rate_based_statement.value.limit
