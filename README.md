@@ -46,6 +46,7 @@ terraform apply
 
 This repository includes Terraform configurations for the following AWS resources:
 
+- [Amazon API Gateway V2](./terraform/apigateway_v2)
 - [Amazon Athena](./terraform/athena)
 - [Amazon CloudFront](./terraform/cloudfront)
 - [Amazon CloudWatch](./terraform/cloudwatch)
