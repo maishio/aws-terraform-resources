@@ -1,26 +1,4 @@
-# Amazon VPC Endpoint Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-|-----------|----------|
-| terraform | >= 1.3.0 |
-
-## Providers
-
-| Name | Version   |
-|------|-----------|
-| aws  | ~> 4.57.0 |
-
-## Providers
-
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | n/a |
-
-## Modules
-
-No modules.
+# Amazon VPC Endpoint
 
 ## Resources
 

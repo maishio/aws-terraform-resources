@@ -1,20 +1,4 @@
-# Amazon VPC Flow Log Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-| --------- | -------- |
-| terraform | >= 1.4.0 |
-
-## Providers
-
-| Name | Version   |
-| ---- | --------- |
-| aws  | ~> 4.62.0 |
-
-## Modules
-
-No modules.
+# Amazon VPC Flow Log
 
 ## Resources
 

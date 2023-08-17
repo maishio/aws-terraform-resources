@@ -1,20 +1,4 @@
-# AWS Lambda Event Source Mapping Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-|-----------|----------|
-| terraform | >= 1.3.0 |
-
-## Providers
-
-| Name | Version   |
-|------|-----------|
-| aws  | ~> 4.57.0 |
-
-## Modules
-
-No modules.
+# AWS Lambda Event Source Mapping
 
 ## Resources
 

@@ -1,20 +1,4 @@
-# Amazon CloudFront Response Header Policy Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-| --------- | -------- |
-| terraform | ~> 1.4.0 |
-
-## Providers
-
-| Name | Version   |
-| ---- | --------- |
-| aws  | ~> 4.57.0 |
-
-## Modules
-
-No modules.
+# Amazon CloudFront Response Header Policy
 
 ## Resources
 

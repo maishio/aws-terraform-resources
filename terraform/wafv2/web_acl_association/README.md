@@ -1,20 +1,4 @@
-# AWS WAFv2 Web ACL Association Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-| --------- | -------- |
-| terraform | ~> 1.4.0 |
-
-## Providers
-
-| Name | Version   |
-| ---- | --------- |
-| aws  | ~> 4.57.0 |
-
-## Modules
-
-No modules.
+# AWS WAFv2 Web ACL Association
 
 ## Resources
 

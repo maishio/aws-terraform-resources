@@ -1,20 +1,4 @@
-# Amazon EC2 Key Pair Terraform Resource
-
-## Requirements
-
-| Name      | Version  |
-|-----------|----------|
-| terraform | >= 1.3.0 |
-
-## Providers
-
-| Name | Version   |
-|------|-----------|
-| aws  | ~> 4.57.0 |
-
-## Modules
-
-No modules.
+# Amazon EC2 Key Pair
 
 ## Resources
 
