@@ -1,4 +1,4 @@
-# Amazon API Gateway V2 API Domain Name
+# Amazon API Gateway V2 Domain Name
 
 ## Resources
 

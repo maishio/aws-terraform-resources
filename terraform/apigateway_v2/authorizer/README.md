@@ -1,4 +1,4 @@
-# Amazon API Gateway V2 API Authorizer
+# Amazon API Gateway V2 Authorizer
 
 ## Resources
 

@@ -1,4 +1,4 @@
-# Amazon API Gateway V2 API Deployment
+# Amazon API Gateway V2 Deployment
 
 ## Resources
 
