@@ -34,7 +34,6 @@ resource "aws_lambda_function" "this" {
   lifecycle {
     ignore_changes = [
       filename,
-      qualified_arn,
       version,
     ]
   }
