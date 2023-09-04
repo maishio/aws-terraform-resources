@@ -6,6 +6,12 @@ variable "api_id" {
   type        = string
 }
 
+variable "authorizer_payload_format_version" {
+  description = "Format of the payload sent to an HTTP API Lambda authorizer."
+  type        = string
+  default     = null
+}
+
 variable "authorizer_result_ttl_in_seconds" {
   description = "TTL for cached authorizer results, in seconds. "
   type        = number
@@ -15,6 +21,12 @@ variable "authorizer_result_ttl_in_seconds" {
 variable "authorizer_type" {
   description = "Authorizer type. Valid values: `JWT`, `REQUEST`."
   type        = string
+}
+
+variable "authorizer_uri" {
+  description = "Authorizer's Uniform Resource Identifier (URI)."
+  type        = string
+  default     = null
 }
 
 variable "enable_simple_responses" {
