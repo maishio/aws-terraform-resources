@@ -22,7 +22,7 @@
 | <a name="input_receive_wait_time_seconds"></a> [receive\_wait\_time\_seconds](#input\_receive\_wait\_time\_seconds) | The time for which a ReceiveMessage call will wait for a message to arrive (long polling) before returning. | `number` | `0` | no |
 | <a name="input_redrive_allow_policy_path"></a> [redrive\_allow\_policy\_path](#input\_redrive\_allow\_policy\_path) | The template file to use for the Dead Letter Queue redrive policy. | `string` | `null` | no |
 | <a name="input_redrive_allow_policy_vars"></a> [redrive\_allow\_policy\_vars](#input\_redrive\_allow\_policy\_vars) | The variables to use for the Dead Letter Queue redrive policy. | `map(string)` | `{}` | no |
-| <a name="input_redrive_policy"></a> [redrive\_policy](#input\_redrive\_policy) | The template file to use for the Dead Letter Queue policy. | `string` | `null` | no |
+| <a name="input_redrive_policy_path"></a> [redrive\_policy\_path](#input\_redrive\_policy\_path) | The template file to use for the Dead Letter Queue policy. | `string` | `null` | no |
 | <a name="input_redrive_policy_vars"></a> [redrive\_policy\_vars](#input\_redrive\_policy\_vars) | The variables to use for the Dead Letter Queue policy. | `map(string)` | `{}` | no |
 | <a name="input_sqs_managed_sse_enabled"></a> [sqs\_managed\_sse\_enabled](#input\_sqs\_managed\_sse\_enabled) | Boolean to enable server-side encryption (SSE) of message content with SQS-owned encryption keys. | `bool` | `false` | no |
 | <a name="input_tags"></a> [tags](#input\_tags) | A mapping of tags to assign to the resource. | `map(string)` | `{}` | no |

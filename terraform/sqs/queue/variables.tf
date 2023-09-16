@@ -60,7 +60,7 @@ variable "receive_wait_time_seconds" {
   default     = 0
 }
 
-variable "redrive_policy" {
+variable "redrive_policy_path" {
   description = "The template file to use for the Dead Letter Queue policy."
   type        = string
   default     = null
