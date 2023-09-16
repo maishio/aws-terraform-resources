@@ -72,6 +72,18 @@ variable "redrive_policy_vars" {
   default     = {}
 }
 
+variable "redrive_allow_policy_path" {
+  description = "The template file to use for the Dead Letter Queue redrive policy."
+  type        = string
+  default     = null
+}
+
+variable "redrive_allow_policy_vars" {
+  description = "The variables to use for the Dead Letter Queue redrive policy."
+  type        = map(string)
+  default     = {}
+}
+
 variable "sqs_managed_sse_enabled" {
   description = "Boolean to enable server-side encryption (SSE) of message content with SQS-owned encryption keys."
   type        = bool

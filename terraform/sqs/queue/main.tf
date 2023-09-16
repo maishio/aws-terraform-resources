@@ -9,9 +9,10 @@ resource "aws_sqs_queue" "this" {
   max_message_size                  = var.max_message_size
   message_retention_seconds         = var.message_retention_seconds
   name                              = var.name
-  policy                            = templatefile(var.policy_path, var.policy_vars)
+  policy                            = var.policy_path != null ? templatefile(var.policy_path, var.policy_vars) : null
   receive_wait_time_seconds         = var.receive_wait_time_seconds
-  redrive_policy                    = templatefile(var.redrive_policy_path, var.redrive_policy_vars)
+  redrive_policy                    = var.redrive_policy_path != null ? templatefile(var.redrive_policy_path, var.redrive_policy_vars) : null
+  redrive_allow_policy              = var.redrive_allow_policy_path != null ? templatefile(var.redrive_allow_policy_path, var.redrive_allow_policy_vars) : null
   sqs_managed_sse_enabled           = var.sqs_managed_sse_enabled
   tags                              = merge(var.tags, { "Name" = var.name })
   visibility_timeout_seconds        = var.visibility_timeout_seconds
