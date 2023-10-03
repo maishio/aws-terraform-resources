@@ -1,7 +1,7 @@
 # Amazon SES Receipt Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ses_receipt_rule
 
-resource "aws_ses_receipt_rule" "store" {
+resource "aws_ses_receipt_rule" "this" {
   name          = var.name
   rule_set_name = var.rule_set_name
   recipients    = var.recipients
