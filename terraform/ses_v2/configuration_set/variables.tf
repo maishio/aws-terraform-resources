@@ -1,5 +1,5 @@
 # AWS SESv2 (Simple Email V2) Configuration Set
-# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sesv2_email_identity
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sesv2_configuration_set
 
 variable "configuration_set_name" {
   description = "Name of the configuration set."
