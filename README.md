@@ -51,6 +51,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon CloudFront](./terraform/cloudfront)
 - [Amazon CloudWatch](./terraform/cloudwatch)
 - [Amazon Cognito](./terraform/cognito)
+- [Amazon DynamoDB](./terraform/dynamodb)
 - [Amazon EC2](./terraform/ec2)
 - [Amazon ECR](./terraform/ecr)
 - [Amazon ECS](./terraform/ecs)
