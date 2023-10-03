@@ -58,6 +58,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon GuardDuty](./terraform/guardduty)
 - [Amazon Route53](./terraform/route53)
 - [Amazon S3](./terraform/s3)
+- [Amazon SES](./terraform/ses)
 - [Amazon SESv2](./terraform/ses_v2)
 - [Amazon SQS](./terraform/sqs)
 - [Amazon VPC](./terraform/vpc)
