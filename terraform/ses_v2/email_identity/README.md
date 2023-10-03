@@ -1,4 +1,4 @@
-# AWS SESv2 (Simple Email V2) Email Identity
+# Amazon SESv2 (Simple Email V2) Email Identity
 
 ## Resources
 
@@ -19,4 +19,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sesv2_email_identity"></a> [sesv2\_email\_identity](#output\_sesv2\_email\_identity) | AWS SESv2 (Simple Email V2) Email Identity resource. |
+| <a name="output_sesv2_email_identity"></a> [sesv2\_email\_identity](#output\_sesv2\_email\_identity) | Amazon SESv2 (Simple Email V2) Email Identity resource. |

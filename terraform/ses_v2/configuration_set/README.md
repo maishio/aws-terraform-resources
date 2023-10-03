@@ -1,4 +1,4 @@
-# AWS SESv2 (Simple Email V2) Configuration Set
+# Amazon SESv2 (Simple Email V2) Configuration Set
 
 ## Resources
 
@@ -19,4 +19,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sesv2_configuration_set"></a> [sesv2\_configuration\_set](#output\_sesv2\_configuration\_set) | AWS SESv2 (Simple Email V2) Configuration Set resource. |
+| <a name="output_sesv2_configuration_set"></a> [sesv2\_configuration\_set](#output\_sesv2\_configuration\_set) | Amazon SESv2 (Simple Email V2) Configuration Set resource. |
