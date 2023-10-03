@@ -1,4 +1,4 @@
-# Amazon SES Receipt Rule Set
+# Amazon SES (Simple Email) Receipt Rule Set
 
 ## Resources
 
