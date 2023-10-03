@@ -3,8 +3,8 @@
 
 resource "aws_route53_record" "this" {
   name    = var.name
-  records = var.alias == [] ? var.records : null
-  ttl     = var.alias == [] ? var.ttl : null
+  records = length(var.alias) == 0 ? var.records : null
+  ttl     = length(var.alias) == 0 ? var.ttl : null
   type    = var.type
   zone_id = var.zone_id
 
