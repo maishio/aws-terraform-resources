@@ -5,5 +5,5 @@ resource "aws_sns_topic_subscription" "this" {
   endpoint              = var.endpoint
   protocol              = var.protocol
   subscription_role_arn = var.subscription_role_arn
-  topic_arn             = aws_sns_topic.this.arn
+  topic_arn             = var.topic_arn
 }
