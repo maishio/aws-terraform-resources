@@ -34,12 +34,6 @@ variable "tags" {
 # AWS IAM Role Policy Attachment
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment
 
-variable "create_iam_role_policy_attachment" {
-  description = "Whether to create the IAM role policy attachment."
-  type        = bool
-  default     = false
-}
-
 variable "role" {
   description = "Name of the IAM role to attach the policy to."
   type        = string

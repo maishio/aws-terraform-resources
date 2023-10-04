@@ -11,7 +11,6 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_create_iam_role_policy_attachment"></a> [create\_iam\_role\_policy\_attachment](#input\_create\_iam\_role\_policy\_attachment) | Whether to create the IAM role policy attachment. | `bool` | `false` | no |
 | <a name="input_description"></a> [description](#input\_description) | Description of the policy. | `string` | `null` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name of the policy. | `string` | `null` | no |
 | <a name="input_path"></a> [path](#input\_path) | Path to the policy. | `string` | `null` | no |

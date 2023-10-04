@@ -12,7 +12,6 @@ resource "aws_iam_policy" "this" {
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment
 
 resource "aws_iam_role_policy_attachment" "this" {
-  count      = var.create_iam_role_policy_attachment ? 1 : 0
   role       = var.role
   policy_arn = aws_iam_policy.this.arn
   depends_on = [aws_iam_policy.this]
