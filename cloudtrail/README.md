@@ -28,21 +28,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_cloudtrail"></a> [cloudtrail](#output\_cloudtrail) | n/a |
-
-## Usage
-
-```hcl
-module "cloudtrail" {
-  source                        = "git::https://github.com/maishio/terraform-aws-resources.git//cloudtrail?ref=v4.10.0"
-  enable_log_file_validation    = true
-  include_global_service_events = true
-  is_organization_trail         = false
-  is_multi_region_trail         = true
-  kms_key_id                    = module.kms.kms_key.arn
-  name                          = "aws-cloudtrail-logs-${var.account.id}"
-  s3_bucket_name                = module.s3.s3_bucket.bucket
-  s3_key_prefix                 = "cloudtrail"
-  tags                          = var.tags
-  depends_on                    = [module.s3]
-}
-```
