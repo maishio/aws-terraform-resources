@@ -1,5 +1,5 @@
 # --------------------------------------------------------------------------------
-# AWS Secrets Manager secret
+# AWS Secrets Manager Secret
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/secretsmanager_secret
 # --------------------------------------------------------------------------------
 
