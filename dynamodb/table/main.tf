@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon DynamoDB Table
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table
+# --------------------------------------------------------------------------------
 
 resource "aws_dynamodb_table" "this" {
   billing_mode                = var.billing_mode

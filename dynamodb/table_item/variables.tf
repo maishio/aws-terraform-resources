@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon DynamoDB Table Item
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/dynamodb_table_item
+# --------------------------------------------------------------------------------
 
 variable "hash_key" {
   description = "Hash key to use for lookups and identification of the item."
