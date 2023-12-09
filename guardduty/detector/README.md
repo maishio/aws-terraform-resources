@@ -19,12 +19,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_guardduty_detector"></a> [guardduty\_detector](#output\_guardduty\_detector) | n/a |
-
-## Usage
-
-```hcl
-module "guardduty" {
-  source = "git::https://github.com/maishio/terraform-aws-resources.git//guardduty"
-  tags   = var.tags
-}
-```
