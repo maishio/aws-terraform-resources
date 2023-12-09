@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Config Configuration Recorder
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder
+# --------------------------------------------------------------------------------
 
 variable "all_supported" {
   description = "Specifies whether AWS Config records configuration changes for every supported type of regional resource."
@@ -30,8 +32,10 @@ variable "resource_types" {
   default     = []
 }
 
+# --------------------------------------------------------------------------------
 # AWS Config Delivery Channel
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_delivery_channel
+# --------------------------------------------------------------------------------
 
 variable "channel_name" {
   description = "Name of the delivery channel. Defaults to `default`."
@@ -50,8 +54,10 @@ variable "s3_key_prefix" {
   default     = null
 }
 
+# --------------------------------------------------------------------------------
 # AWS Config Configuration Recorder Status
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder_status
+# --------------------------------------------------------------------------------
 
 variable "is_enabled" {
   description = "Whether the configuration recorder should be enabled or disabled."

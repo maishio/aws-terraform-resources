@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Config Configuration Recorder
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder
+# --------------------------------------------------------------------------------
 
 resource "aws_config_configuration_recorder" "this" {
   name     = var.recorder_name
@@ -12,8 +14,10 @@ resource "aws_config_configuration_recorder" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # AWS Config Delivery Channel
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_delivery_channel
+# --------------------------------------------------------------------------------
 
 resource "aws_config_delivery_channel" "this" {
   name           = var.channel_name
@@ -22,8 +26,10 @@ resource "aws_config_delivery_channel" "this" {
   depends_on     = [aws_config_configuration_recorder.this]
 }
 
+# --------------------------------------------------------------------------------
 # AWS Config Configuration Recorder Status
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/config_configuration_recorder_status
+# --------------------------------------------------------------------------------
 
 resource "aws_config_configuration_recorder_status" "this" {
   name       = aws_config_configuration_recorder.this.name
