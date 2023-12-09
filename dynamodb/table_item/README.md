@@ -20,4 +20,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_dynamodb_table_item"></a> [dynamodb\_table\_item](#output\_dynamodb\_table\_item) | Amazon DynamoDB Table Item resource. |
+| <a name="output_dynamodb_table_item"></a> [dynamodb\_table\_item](#output\_dynamodb\_table\_item) | n/a |

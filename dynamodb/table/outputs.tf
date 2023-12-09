@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "dynamodb_table" {
-  description = "Amazon DynamoDB Table resource."
-  value       = aws_dynamodb_table.this
+  value = aws_dynamodb_table.this
 }
