@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "codecommit_repository" {
-  description = "AWS CodeCommit Repository resource."
-  value       = aws_codecommit_repository.this
+  value = aws_codecommit_repository.this
 }

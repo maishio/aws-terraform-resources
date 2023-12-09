@@ -19,4 +19,4 @@
 
 | Name                                                                                               | Description                         |
 | -------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| <a name="output_codecommit_repository"></a> [codecommit_repository](#output_codecommit_repository) | AWS CodeCommit Repository resource. |
+| <a name="output_codecommit_repository"></a> [codecommit_repository](#output_codecommit_repository) | n/a |
