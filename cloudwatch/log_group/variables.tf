@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon CloudWatch Logs Log Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group
+# --------------------------------------------------------------------------------
 
 variable "kms_key_id" {
   description = "ARN of the KMS Key to use when encrypting log data."

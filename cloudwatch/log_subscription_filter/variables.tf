@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon CloudWatch Logs Subscription Filter
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_subscription_filter
+# --------------------------------------------------------------------------------
 
 variable "destination_arn" {
   description = "ARN of the destination to deliver matching log events to. Kinesis stream or Lambda function ARN."
