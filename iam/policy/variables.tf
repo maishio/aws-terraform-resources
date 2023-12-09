@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS IAM Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy
+# --------------------------------------------------------------------------------
 
 variable "description" {
   description = "Description of the policy."
@@ -31,8 +33,10 @@ variable "tags" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # AWS IAM Role Policy Attachment
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment
+# --------------------------------------------------------------------------------
 
 variable "role" {
   description = "Name of the IAM role to attach the policy to."

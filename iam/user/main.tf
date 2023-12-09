@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS IAM User
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user
+# --------------------------------------------------------------------------------
 
 resource "aws_iam_user" "this" {
   count         = length(var.users)

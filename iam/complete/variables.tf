@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS IAM Role
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role
+# --------------------------------------------------------------------------------
 
 variable "description" {
   description = "Description of the role."
@@ -30,8 +32,10 @@ variable "tags" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # AWS IAM Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy
+# --------------------------------------------------------------------------------
 
 variable "path" {
   description = "Path in which to create the policy."
@@ -57,8 +61,10 @@ variable "policy_vars" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # AWS IAM Instance Profile
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_instance_profile
+# --------------------------------------------------------------------------------
 
 variable "create_iam_instance_profile" {
   description = "Whether to create an IAM instance profile."

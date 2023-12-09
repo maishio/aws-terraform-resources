@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS IAM Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_policy
+# --------------------------------------------------------------------------------
 
 resource "aws_iam_policy" "this" {
   description = var.description
@@ -8,8 +10,10 @@ resource "aws_iam_policy" "this" {
   tags        = merge(var.tags, { "Name" = var.name })
 }
 
+# --------------------------------------------------------------------------------
 # AWS IAM Role Policy Attachment
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy_attachment
+# --------------------------------------------------------------------------------
 
 resource "aws_iam_role_policy_attachment" "this" {
   role       = var.role
