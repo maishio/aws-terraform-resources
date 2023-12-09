@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon API Gateway V2 Deployment
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_deployment
+# --------------------------------------------------------------------------------
 
 variable "api_id" {
   description = "API identifier."

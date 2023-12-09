@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon API Gateway V2 Authorizer
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_authorizer
+# --------------------------------------------------------------------------------
 
 resource "aws_apigatewayv2_authorizer" "this" {
   api_id                            = var.api_id

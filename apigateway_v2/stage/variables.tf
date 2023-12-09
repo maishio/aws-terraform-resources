@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon API Gateway V2 Stage
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/apigatewayv2_stage
+# --------------------------------------------------------------------------------
 
 variable "access_log_settings" {
   description = "Settings for logging access in this stage."
