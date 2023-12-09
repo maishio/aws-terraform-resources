@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon CloudFront Function
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_function
+# --------------------------------------------------------------------------------
 
 variable "comment" {
   description = "A comment to describe the function."

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon CloudFront Distribution
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_distribution
+# --------------------------------------------------------------------------------
 
 resource "aws_cloudfront_distribution" "this" {
   aliases             = var.aliases

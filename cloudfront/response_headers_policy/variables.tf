@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon CloudFront Response Header Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudfront_response_headers_policy
+# --------------------------------------------------------------------------------
 
 variable "comment" {
   description = "Comment to describe the response headers policy."
