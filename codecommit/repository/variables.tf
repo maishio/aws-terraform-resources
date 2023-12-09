@@ -1,5 +1,7 @@
-# AWS CodeCommit
+# --------------------------------------------------------------------------------
+# AWS CodeCommit Repository
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codecommit_repository
+# --------------------------------------------------------------------------------
 
 variable "default_branch" {
   description = "Default branch of the repository. The branch specified here needs to exist."

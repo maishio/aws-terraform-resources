@@ -1,5 +1,7 @@
-# AWS CodeCommit
+# --------------------------------------------------------------------------------
+# AWS CodeCommit Repository
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/codecommit_repository
+# --------------------------------------------------------------------------------
 
 resource "aws_codecommit_repository" "this" {
   repository_name = var.repository_name
