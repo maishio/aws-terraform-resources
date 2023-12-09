@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of the bucket."

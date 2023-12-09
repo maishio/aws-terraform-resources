@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket CORS Configuration
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_cors_configuration
+# --------------------------------------------------------------------------------
 
 resource "aws_s3_bucket_cors_configuration" "this" {
   bucket = var.bucket

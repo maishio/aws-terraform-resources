@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket Server Side Encryption Configuration
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_server_side_encryption_configuration
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of the bucket."

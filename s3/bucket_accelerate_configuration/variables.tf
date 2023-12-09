@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket Accelerate Configuration
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_accelerate_configuration
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of the bucket."

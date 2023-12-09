@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Object
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_object
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of the bucket."

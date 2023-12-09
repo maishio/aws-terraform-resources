@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket ACL
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_acl
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of the bucket."
