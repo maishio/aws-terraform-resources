@@ -29,15 +29,3 @@
 | <a name="output_config_configuration_recorder"></a> [config\_configuration\_recorder](#output\_config\_configuration\_recorder) | n/a |
 | <a name="output_config_configuration_recorder_status"></a> [config\_configuration\_recorder\_status](#output\_config\_configuration\_recorder\_status) | n/a |
 | <a name="output_config_delivery_channel"></a> [config\_delivery\_channel](#output\_config\_delivery\_channel) | n/a |
-
-## Usage
-
-```hcl
-module "config" {
-  source                        = "git::https://github.com/maishio/terraform-aws-resources.git//config?ref=v4.10.0"
-  include_global_resource_types = true
-  role_arn                      = module.iam.iam_role.arn
-  s3_bucket_name                = module.s3.s3_bucket.bucket
-  s3_key_prefix                 = "config"
-}
-``
