@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
+# --------------------------------------------------------------------------------
 
 resource "aws_cognito_user_pool" "this" {
   auto_verified_attributes = var.auto_verified_attributes
@@ -29,8 +31,10 @@ resource "aws_cognito_user_pool" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Client
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
+# --------------------------------------------------------------------------------
 
 resource "aws_cognito_user_pool_client" "this" {
   access_token_validity                = var.access_token_validity
@@ -51,8 +55,10 @@ resource "aws_cognito_user_pool_client" "this" {
   write_attributes                     = var.write_attributes
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Domain
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain
+# --------------------------------------------------------------------------------
 
 resource "aws_cognito_user_pool_domain" "this" {
   certificate_arn = var.certificate_arn

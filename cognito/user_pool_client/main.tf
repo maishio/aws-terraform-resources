@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Client
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
+# --------------------------------------------------------------------------------
 
 resource "aws_cognito_user_pool_client" "this" {
   access_token_validity                = var.access_token_validity

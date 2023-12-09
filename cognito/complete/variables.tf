@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
+# --------------------------------------------------------------------------------
 
 variable "auto_verified_attributes" {
   description = "Attributes to be auto-verified. Valid values are `email` and `phone_number`."
@@ -86,8 +88,10 @@ variable "default_email_option" {
   default     = "CONFIRM_WITH_CODE"
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Client
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
+# --------------------------------------------------------------------------------
 
 variable "access_token_validity" {
   description = "Time limit, between 5 minutes and 1 day, after which the access token is no longer valid and cannot be used."
@@ -178,8 +182,10 @@ variable "write_attributes" {
   default     = []
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Domain
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_domain
+# --------------------------------------------------------------------------------
 
 variable "certificate_arn" {
   description = "ARN of an ACM certificate in us-east-1 to be used for the custom domain."

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
+# --------------------------------------------------------------------------------
 
 resource "aws_cognito_user_pool" "this" {
   auto_verified_attributes = var.auto_verified_attributes

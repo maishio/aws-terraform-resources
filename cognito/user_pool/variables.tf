@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool
+# --------------------------------------------------------------------------------
 
 variable "auto_verified_attributes" {
   description = "Attributes to be auto-verified. Valid values are `email` and `phone_number`."

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Cognito User Pool Client
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cognito_user_pool_client
+# --------------------------------------------------------------------------------
 
 variable "access_token_validity" {
   description = "Time limit, between 5 minutes and 1 day, after which the access token is no longer valid and cannot be used."
