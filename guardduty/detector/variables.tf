@@ -1,5 +1,7 @@
-# Amazon GuradDuty Detector
+# --------------------------------------------------------------------------------
+# Amazon GuardDuty Detector
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/guardduty_detector
+# --------------------------------------------------------------------------------
 
 variable "enable" {
   description = "Whether to enable GuardDuty Detector. Defaults to `true`."
