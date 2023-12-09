@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Service
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service
+# --------------------------------------------------------------------------------
 
 variable "cluster" {
   description = "ARN of the cluster in which to run the service."

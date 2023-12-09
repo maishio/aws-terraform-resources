@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Cluster
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_cluster
+# --------------------------------------------------------------------------------
 
 resource "aws_ecs_cluster" "this" {
   name = var.name
@@ -11,8 +13,10 @@ resource "aws_ecs_cluster" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # Amazon ECS Cluster Capacity Providers
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_cluster_capacity_providers
+# --------------------------------------------------------------------------------
 
 resource "aws_ecs_cluster_capacity_providers" "this" {
   cluster_name       = aws_ecs_cluster.this.name

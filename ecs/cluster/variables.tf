@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Cluster
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_cluster
+# --------------------------------------------------------------------------------
 
 variable "name" {
   description = "Name of the cluster."

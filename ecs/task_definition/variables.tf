@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Task Definition
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
+# --------------------------------------------------------------------------------
 
 variable "cpu" {
   description = "The number of cpu units used by the task."

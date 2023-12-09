@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Task Definition
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition
+# --------------------------------------------------------------------------------
 
 resource "aws_ecs_task_definition" "this" {
   container_definitions    = templatefile(var.path, var.vars)

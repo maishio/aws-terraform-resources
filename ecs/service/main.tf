@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon ECS Service
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service
+# --------------------------------------------------------------------------------
 
 resource "aws_ecs_service" "this" {
   cluster                           = var.cluster
