@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Lambda Event Source Mapping
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_event_source_mapping
+# --------------------------------------------------------------------------------
 
 variable "batch_size" {
   description = "The largest number of records that AWS Lambda will retrieve from your event source at the time of invoking your function."

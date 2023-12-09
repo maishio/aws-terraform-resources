@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Lambda Permission
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_permission
+# --------------------------------------------------------------------------------
 
 variable "action" {
   description = "AWS Lambda action you want to allow in this statement. Defaults to `lambda:InvokeFunction`."

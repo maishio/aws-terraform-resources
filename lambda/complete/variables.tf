@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Lambda Function
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_function
+# --------------------------------------------------------------------------------
 
 variable "description" {
   description = "Description of the Lambda function."
@@ -91,8 +93,10 @@ variable "vpc_config" {
   default     = []
 }
 
+# --------------------------------------------------------------------------------
 # AWS Lambda Permission
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_permission
+# --------------------------------------------------------------------------------
 
 variable "action" {
   description = "AWS Lambda action you want to allow in this statement. Defaults to `lambda:InvokeFunction`."
@@ -118,8 +122,10 @@ variable "statement_id" {
   default     = null
 }
 
+# --------------------------------------------------------------------------------
 # Amazon S3 Bucket Notification
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket_notification
+# --------------------------------------------------------------------------------
 
 variable "create_s3_bucket_notification" {
   description = "Whether to create an S3 bucket notification. Defaults to `false`."

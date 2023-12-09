@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Lambda Layer Version
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lambda_layer_version
+# --------------------------------------------------------------------------------
 
 variable "compatible_runtimes" {
   description = "List of Architectures this layer is compatible with. Currently `x86_64` and `arm64` can be specified."
