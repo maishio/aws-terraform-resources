@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon EC2 Elastic IP
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/eip
+# --------------------------------------------------------------------------------
 
 variable "name" {
   description = "Name of the Elastic IP."

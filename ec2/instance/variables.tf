@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon EC2 Instance
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/instance
+# --------------------------------------------------------------------------------
 
 variable "ami" {
   description = "AMI to use for the instance."
