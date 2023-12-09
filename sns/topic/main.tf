@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon SNS Topic
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic
+# --------------------------------------------------------------------------------
 
 resource "aws_sns_topic" "this" {
   display_name                        = var.display_name

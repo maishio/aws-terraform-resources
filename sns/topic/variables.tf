@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon SNS Topic
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic
+# --------------------------------------------------------------------------------
 
 variable "display_name" {
   description = "Display name for the SNS topic."

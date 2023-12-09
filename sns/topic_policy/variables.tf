@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon SNS Topic Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sns_topic_policy
+# --------------------------------------------------------------------------------
 
 variable "arn" {
   description = "ARN of the SNS topic."
