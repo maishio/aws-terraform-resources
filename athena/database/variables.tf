@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Athena Database
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_database
+# --------------------------------------------------------------------------------
 
 variable "bucket" {
   description = "Name of S3 bucket to save the results of the query execution."

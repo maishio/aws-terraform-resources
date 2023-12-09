@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Athena Named Query
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/athena_named_query
+# --------------------------------------------------------------------------------
 
 variable "database" {
   description = "Database to which the query belongs."
