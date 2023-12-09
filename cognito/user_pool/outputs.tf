@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cognito_user_pool" {
-  description = "Amazon Cognito User Pool resource."
-  value       = aws_cognito_user_pool.this
+  value = aws_cognito_user_pool.this
 }

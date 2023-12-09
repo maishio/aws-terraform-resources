@@ -31,4 +31,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_cognito_user_pool_client"></a> [cognito\_user\_pool\_client](#output\_cognito\_user\_pool\_client) | Amazon Cognito User Pool Client resource. |
+| <a name="output_cognito_user_pool_client"></a> [cognito\_user\_pool\_client](#output\_cognito\_user\_pool\_client) | n/a |

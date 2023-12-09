@@ -18,4 +18,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_cognito_user_pool_domain"></a> [cognito\_user\_pool\_domain](#output\_cognito\_user\_pool\_domain) | Amazon Cognito User Pool Domain resource. |
+| <a name="output_cognito_user_pool_domain"></a> [cognito\_user\_pool\_domain](#output\_cognito\_user\_pool\_domain) | n/a |

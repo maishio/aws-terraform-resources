@@ -28,4 +28,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_cognito_user_pool"></a> [cognito\_user\_pool](#output\_cognito\_user\_pool) | Amazon Cognito User Pool resource. |
+| <a name="output_cognito_user_pool"></a> [cognito\_user\_pool](#output\_cognito\_user\_pool) | n/a |
