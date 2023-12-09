@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+# --------------------------------------------------------------------------------
 
 variable "access_logs" {
   description = "A list of access_logs objects for the dynamic block."

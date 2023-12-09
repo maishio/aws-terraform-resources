@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener_rule
+# --------------------------------------------------------------------------------
 
 variable "listener_arn" {
   description = "ARN of the listener to which to attach the rule."

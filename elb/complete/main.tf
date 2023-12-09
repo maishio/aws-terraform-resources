@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+# --------------------------------------------------------------------------------
 
 resource "aws_lb" "this" {
   drop_invalid_header_fields       = var.drop_invalid_header_fields
@@ -25,8 +27,10 @@ resource "aws_lb" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Target Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group
+# --------------------------------------------------------------------------------
 
 resource "aws_lb_target_group" "this" {
   deregistration_delay               = var.deregistration_delay
@@ -65,8 +69,10 @@ resource "aws_lb_target_group" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+# --------------------------------------------------------------------------------
 
 resource "aws_lb_listener" "this" {
   certificate_arn   = var.certificate_arn
@@ -108,8 +114,10 @@ resource "aws_lb_listener" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener_rule
+# --------------------------------------------------------------------------------
 
 resource "aws_lb_listener_rule" "this" {
   count        = var.create_lb_listener_rule ? 1 : 0

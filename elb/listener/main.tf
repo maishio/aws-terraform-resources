@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+# --------------------------------------------------------------------------------
 
 resource "aws_lb_listener" "this" {
   certificate_arn   = var.certificate_arn

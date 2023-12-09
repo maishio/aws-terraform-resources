@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+# --------------------------------------------------------------------------------
 
 variable "access_logs" {
   description = "A list of access_logs objects for the dynamic block."
@@ -79,8 +81,10 @@ variable "tags" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Target Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group
+# --------------------------------------------------------------------------------
 
 variable "deregistration_delay" {
   description = "The amount time for Elastic Load Balancing to wait before changing the state of a deregistering target from draining to unused."
@@ -211,8 +215,10 @@ variable "stickiness_type" {
   default     = "lb_cookie"
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+# --------------------------------------------------------------------------------
 
 variable "certificate_arn" {
   description = "ARN of the default SSL server certificate."
@@ -244,8 +250,10 @@ variable "ssl_policy" {
   default     = null
 }
 
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener_rule
+# --------------------------------------------------------------------------------
 
 variable "action_type" {
   description = "Type of routing action."

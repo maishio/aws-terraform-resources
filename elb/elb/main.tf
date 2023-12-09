@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb
+# --------------------------------------------------------------------------------
 
 resource "aws_lb" "this" {
   drop_invalid_header_fields       = var.drop_invalid_header_fields

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Listener
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener
+# --------------------------------------------------------------------------------
 
 variable "certificate_arn" {
   description = "ARN of the default SSL server certificate."

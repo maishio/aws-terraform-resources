@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Elastic Load Balancer Target Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group
+# --------------------------------------------------------------------------------
 
 resource "aws_lb_target_group" "this" {
   deregistration_delay               = var.deregistration_delay
