@@ -1,4 +1,4 @@
-# Amazon S3 Resourcea
+# Amazon S3 Resources
 
 ## Resources
 
