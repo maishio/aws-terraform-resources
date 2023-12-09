@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Route53 Record
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record
+# --------------------------------------------------------------------------------
 
 resource "aws_route53_record" "this" {
   name    = var.name
