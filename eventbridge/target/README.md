@@ -22,4 +22,4 @@
 
 | Name                                                                                                     | Description                         |
 | -------------------------------------------------------------------------------------------------------- | ----------------------------------- |
-| <a name="output_cloudwatch_event_target"></a> [cloudwatch_event_target](#output_cloudwatch_event_target) | Amazon EventBridge Target resource. |
+| <a name="output_cloudwatch_event_target"></a> [cloudwatch_event_target](#output_cloudwatch_event_target) | n/a |

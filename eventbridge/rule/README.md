@@ -23,4 +23,4 @@
 
 | Name                                                                                               | Description                       |
 | -------------------------------------------------------------------------------------------------- | --------------------------------- |
-| <a name="output_cloudwatch_event_rule"></a> [cloudwatch_event_rule](#output_cloudwatch_event_rule) | Amazon EventBridge Rule resource. |
+| <a name="output_cloudwatch_event_rule"></a> [cloudwatch_event_rule](#output_cloudwatch_event_rule) | n/a |

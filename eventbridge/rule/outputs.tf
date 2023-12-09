@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudwatch_event_rule" {
-  description = "Amazon EventBridge Rule resource."
-  value       = aws_cloudwatch_event_rule.this
+  value = aws_cloudwatch_event_rule.this
 }

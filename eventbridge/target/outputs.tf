@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudwatch_event_target" {
-  description = "Amazon EventBridge Target resource."
-  value       = aws_cloudwatch_event_target.this
+  value = aws_cloudwatch_event_target.this
 }
