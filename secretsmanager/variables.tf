@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS Secrets Manager secret
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/secretsmanager_secret
+# --------------------------------------------------------------------------------
 
 variable "description" {
   description = "Description of the secret."
@@ -30,8 +32,10 @@ variable "tags" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # AWS Secrets Manager secret version
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/secretsmanager_secret_version
+# --------------------------------------------------------------------------------
 
 variable "secret_string" {
   description = "Specifies text data that you want to encrypt and store in this version of the secret."
