@@ -24,37 +24,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_ecr_repository"></a> [ecr\_repository](#output\_ecr\_repository) | n/a |
-
-## Usage
-
-Create a json file defined the ecr lifecycle policy.(file name: ecr_lifecycle_policy.json)
-
-```json
-{
-    "rules": [
-        {
-            "rulePriority": 1,
-            "description": "Expire images leaving the latest one",
-            "selection": {
-                "tagStatus": "any",
-                "countType": "imageCountMoreThan",
-                "countNumber": 2
-            },
-            "action": {
-                "type": "expire"
-            }
-        }
-    ]
-}
-```
-
-Create a terraform file to create ecr repository and lifecycle policy.
-
-```hcl
-module "ecr" {
-  source = "git::https://github.com/maishio/terraform-aws-resources.git//ecr"
-  name   = "${var.tags.service}-${var.tags.env}-ecr"
-  path   = "${path.module}/files/template/ecr_lifecycle_policy.json"
-  tags   = var.tags
-}
-```
