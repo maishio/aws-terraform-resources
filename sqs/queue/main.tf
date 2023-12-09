@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon SQS Queue
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sqs_queue
+# --------------------------------------------------------------------------------
 
 resource "aws_sqs_queue" "this" {
   content_based_deduplication       = var.content_based_deduplication

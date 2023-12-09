@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon SQS Queue
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/sqs_queue
+# --------------------------------------------------------------------------------
 
 variable "content_based_deduplication" {
   description = "Enables content-based deduplication for FIFO queues."
