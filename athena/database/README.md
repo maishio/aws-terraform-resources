@@ -19,4 +19,4 @@
 
 | Name                                                                             | Description                      |
 | -------------------------------------------------------------------------------- | -------------------------------- |
-| <a name="output_athena_database"></a> [athena_database](#output_athena_database) | Amazon Athena Database resource. |
+| <a name="output_athena_database"></a> [athena_database](#output_athena_database) | n/a |

@@ -21,4 +21,4 @@
 
 | Name                                                                                      | Description                         |
 | ----------------------------------------------------------------------------------------- | ----------------------------------- |
-| <a name="output_athena_named_query"></a> [athena_named_query](#output_athena_named_query) | Amazon Athena Named Query resource. |
+| <a name="output_athena_named_query"></a> [athena_named_query](#output_athena_named_query) | n/a |

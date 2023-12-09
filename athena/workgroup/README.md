@@ -28,4 +28,4 @@
 
 | Name                                                                                | Description                       |
 | ----------------------------------------------------------------------------------- | --------------------------------- |
-| <a name="output_athena_workgroup"></a> [athena_workgroup](#output_athena_workgroup) | Amazon Athena Workgroup resource. |
+| <a name="output_athena_workgroup"></a> [athena_workgroup](#output_athena_workgroup) | n/a |

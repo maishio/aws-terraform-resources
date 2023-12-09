@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "athena_named_query" {
-  description = "Amazon Athena Named Query resource."
-  value       = aws_athena_named_query.this
+  value = aws_athena_named_query.this
 }

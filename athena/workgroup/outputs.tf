@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "athena_workgroup" {
-  description = "Amazon Athena Workgroup resource."
-  value       = aws_athena_workgroup.this
+  value = aws_athena_workgroup.this
 }

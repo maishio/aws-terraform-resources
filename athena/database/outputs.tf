@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "athena_database" {
-  description = "Amazon Athena Database resource."
-  value       = aws_athena_database.this
+  value = aws_athena_database.this
 }
