@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS ACM Certificate
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/acm_certificate
+# --------------------------------------------------------------------------------
 
 variable "domain_name" {
   description = "The domain name for which you want to request a certificate."
@@ -23,8 +25,10 @@ variable "tags" {
   default     = {}
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Route53 Record
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record
+# --------------------------------------------------------------------------------
 
 variable "allow_overwrite" {
   description = "Allow Terraform to overwrite an existing record when creating."

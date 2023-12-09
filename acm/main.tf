@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS ACM Certificate
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/acm_certificate
+# --------------------------------------------------------------------------------
 
 resource "aws_acm_certificate" "this" {
   domain_name               = var.domain_name
@@ -11,16 +13,20 @@ resource "aws_acm_certificate" "this" {
   }
 }
 
+# --------------------------------------------------------------------------------
 # AWS ACM Certificate Validation
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/acm_certificate_validation
+# --------------------------------------------------------------------------------
 
 resource "aws_acm_certificate_validation" "this" {
   certificate_arn         = aws_acm_certificate.this.arn
   validation_record_fqdns = [for record in aws_route53_record.this : record.fqdn]
 }
 
+# --------------------------------------------------------------------------------
 # Amazon Route53 Record
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route53_record
+# --------------------------------------------------------------------------------
 
 resource "aws_route53_record" "this" {
   for_each = {
