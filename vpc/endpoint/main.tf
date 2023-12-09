@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Endpoint
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc_endpoint
+# --------------------------------------------------------------------------------
 
 resource "aws_vpc_endpoint" "this" {
   policy              = var.path != null ? templatefile(var.path, var.vars) : null

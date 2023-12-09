@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Route Table
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table
+# --------------------------------------------------------------------------------
 
 resource "aws_route_table" "this" {
   vpc_id = var.vpc_id
@@ -18,8 +20,10 @@ resource "aws_route_table" "this" {
   tags = merge(var.tags, { "Name" = var.route_table_name })
 }
 
+# --------------------------------------------------------------------------------
 # Amazon VPC Route Table Association
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association
+# --------------------------------------------------------------------------------
 
 resource "aws_route_table_association" "this" {
   count          = length(var.subnet_ids)

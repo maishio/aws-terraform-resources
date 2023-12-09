@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Endpoint
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/vpc_endpoint
+# --------------------------------------------------------------------------------
 
 variable "endpoint_name" {
   description = "The name of the VPC endpoint."

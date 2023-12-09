@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Subnet
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet
+# --------------------------------------------------------------------------------
 
 variable "map_public_ip_on_launch" {
   description = "Whether to assign a public IP to instances in the subnet"

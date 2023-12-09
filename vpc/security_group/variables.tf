@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Security Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+# --------------------------------------------------------------------------------
 
 variable "description" {
   type    = string
@@ -19,15 +21,19 @@ variable "vpc_id" {
   type = string
 }
 
+# --------------------------------------------------------------------------------
 # Amazon VPC Security Group Ingress Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule
+# --------------------------------------------------------------------------------
 
 variable "ingress_rule" {
   type = any
 }
 
-# Amazon VPC Security Group Engress Rule
+# --------------------------------------------------------------------------------
+# Amazon VPC Security Group Egress Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule
+# --------------------------------------------------------------------------------
 
 variable "egress_rule" {
   type = any
@@ -42,5 +48,3 @@ variable "egress_rule" {
     }
   }
 }
-
-

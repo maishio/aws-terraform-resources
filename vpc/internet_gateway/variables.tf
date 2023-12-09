@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Internet Gateway
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/internet_gateway
+# --------------------------------------------------------------------------------
 
 variable "name" {
   description = "Internet Gateway name"

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Route Table
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table
+# --------------------------------------------------------------------------------
 
 variable "route" {
   description = "A list of route objects for the dynamic block."
@@ -23,8 +25,10 @@ variable "vpc_id" {
   type        = string
 }
 
+# --------------------------------------------------------------------------------
 # Amazon VPC Route Table Association
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/route_table_association
+# --------------------------------------------------------------------------------
 
 variable "subnet_ids" {
   description = "A list of subnet IDs to associate with the route table"

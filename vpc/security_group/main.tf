@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Security Group
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group
+# --------------------------------------------------------------------------------
 
 resource "aws_security_group" "this" {
   name        = var.security_group_name
@@ -8,8 +10,10 @@ resource "aws_security_group" "this" {
   tags        = merge(var.tags, { "Name" = var.security_group_name })
 }
 
+# --------------------------------------------------------------------------------
 # Amazon VPC Security Group Ingress Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule
+# --------------------------------------------------------------------------------
 
 resource "aws_security_group_rule" "ingress" {
   for_each                 = var.ingress_rule
@@ -24,8 +28,10 @@ resource "aws_security_group_rule" "ingress" {
   source_security_group_id = lookup(each.value, "source_security_group_id", null)
 }
 
-# Amazon VPC Security Group Engress Rule
+# --------------------------------------------------------------------------------
+# Amazon VPC Security Group Egress Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule
+# --------------------------------------------------------------------------------
 
 resource "aws_security_group_rule" "egress" {
   for_each                 = var.egress_rule

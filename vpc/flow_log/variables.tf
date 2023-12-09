@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Flow Log
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/flow_log
+# --------------------------------------------------------------------------------
 
 variable "eni_id" {
   description = "Elastic Network Interface ID."

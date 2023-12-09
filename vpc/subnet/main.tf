@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Subnet
-# @see https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet
+# https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/subnet
+# --------------------------------------------------------------------------------
 
 resource "aws_subnet" "this" {
   count                   = length(var.subnets)

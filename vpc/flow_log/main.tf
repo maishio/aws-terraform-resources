@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon VPC Flow Log
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/flow_log
+# --------------------------------------------------------------------------------
 
 resource "aws_flow_log" "this" {
   eni_id                        = var.eni_id
