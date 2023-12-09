@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS WAFv2 Web ACL
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/wafv2_web_acl
+# --------------------------------------------------------------------------------
 
 /* Top-level Arguments */
 

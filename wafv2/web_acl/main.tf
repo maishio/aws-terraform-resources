@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS WAFv2 Web ACL
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/wafv2_web_acl
+# --------------------------------------------------------------------------------
 
 resource "aws_wafv2_web_acl" "this" {
   description = var.description
