@@ -26,24 +26,3 @@
 |------|-------------|
 | <a name="output_acm_certificate"></a> [acm\_certificate](#output\_acm\_certificate) | n/a |
 | <a name="output_acm_certificate_validation"></a> [acm\_certificate\_validation](#output\_acm\_certificate\_validation) | n/a |
-
-## Usage
-
-```hcl
-
-# Amazon Route 53 Public Hosted Zone Data Source
-
-data "aws_route53_zone" "this" {
-  name         = "example.com"
-  private_zone = false
-}
-
-# Create ACM certificate
-
-module "acm" {
-  source            = "git::https://github.com/maishio/terraform-aws-resources.git//acm"
-  domain_name       = "api.${data.aws_route53_zone.this.name}"
-  validation_method = "DNS"
-  zone_id           = data.aws_route53_zone.this.zone_id
-}
-```
