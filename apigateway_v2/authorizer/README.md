@@ -24,4 +24,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_authorizer"></a> [apigatewayv2\_authorizer](#output\_apigatewayv2\_authorizer) | Amazon API Gateway V2 Authorizer resource. |
+| <a name="output_apigatewayv2_authorizer"></a> [apigatewayv2\_authorizer](#output\_apigatewayv2\_authorizer) | n/a |

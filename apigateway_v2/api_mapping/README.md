@@ -18,4 +18,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_api_mapping"></a> [apigatewayv2\_api\_mapping](#output\_apigatewayv2\_api\_mapping) | Amazon API Gateway V2 API Mapping resource. |
+| <a name="output_apigatewayv2_api_mapping"></a> [apigatewayv2\_api\_mapping](#output\_apigatewayv2\_api\_mapping) | n/a |

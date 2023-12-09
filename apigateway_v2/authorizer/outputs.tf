@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "apigatewayv2_authorizer" {
-  description = "Amazon API Gateway V2 Authorizer resource."
-  value       = aws_apigatewayv2_authorizer.this
+  value = aws_apigatewayv2_authorizer.this
 }

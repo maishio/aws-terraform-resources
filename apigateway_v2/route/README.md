@@ -23,4 +23,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_route"></a> [apigatewayv2\_route](#output\_apigatewayv2\_route) | Amazon API Gateway V2 Route resource. |
+| <a name="output_apigatewayv2_route"></a> [apigatewayv2\_route](#output\_apigatewayv2\_route) | n/a |

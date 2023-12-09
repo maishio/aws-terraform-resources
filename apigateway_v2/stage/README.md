@@ -26,4 +26,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_stage"></a> [apigatewayv2\_stage](#output\_apigatewayv2\_stage) | Amazon API Gateway V2 Stage resource. |
+| <a name="output_apigatewayv2_stage"></a> [apigatewayv2\_stage](#output\_apigatewayv2\_stage) | n/a |

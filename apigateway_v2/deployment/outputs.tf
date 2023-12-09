@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "apigatewayv2_deployment" {
-  description = "Amazon API Gateway V2 Deployment resource."
-  value       = aws_apigatewayv2_deployment.this
+  value = aws_apigatewayv2_deployment.this
 }

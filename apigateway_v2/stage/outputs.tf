@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "apigatewayv2_stage" {
-  description = "Amazon API Gateway V2 Stage resource."
-  value       = aws_apigatewayv2_stage.this
+  value = aws_apigatewayv2_stage.this
 }

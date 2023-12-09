@@ -26,4 +26,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_integration"></a> [apigatewayv2\_integration](#output\_apigatewayv2\_integration) | Amazon API Gateway V2 Integration resource. |
+| <a name="output_apigatewayv2_integration"></a> [apigatewayv2\_integration](#output\_apigatewayv2\_integration) | n/a |

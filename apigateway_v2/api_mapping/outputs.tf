@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "apigatewayv2_api_mapping" {
-  description = "Amazon API Gateway V2 API Mapping resource."
-  value       = aws_apigatewayv2_api_mapping.this
+  value = aws_apigatewayv2_api_mapping.this
 }

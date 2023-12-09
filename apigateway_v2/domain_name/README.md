@@ -20,4 +20,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_domain_name"></a> [apigatewayv2\_domain\_name](#output\_apigatewayv2\_domain\_name) | Amazon API Gateway V2 Domain Name resource. |
+| <a name="output_apigatewayv2_domain_name"></a> [apigatewayv2\_domain\_name](#output\_apigatewayv2\_domain\_name) | n/a |

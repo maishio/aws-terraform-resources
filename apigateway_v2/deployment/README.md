@@ -18,4 +18,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_apigatewayv2_deployment"></a> [apigatewayv2\_deployment](#output\_apigatewayv2\_deployment) | Amazon API Gateway V2 Deployment resource. |
+| <a name="output_apigatewayv2_deployment"></a> [apigatewayv2\_deployment](#output\_apigatewayv2\_deployment) | n/a |
