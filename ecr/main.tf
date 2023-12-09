@@ -1,5 +1,7 @@
-# Amazon ECR
+# --------------------------------------------------------------------------------
+# Amazon ECR　Repository
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
+# --------------------------------------------------------------------------------
 
 resource "aws_ecr_repository" "this" {
   force_delete         = var.force_delete
@@ -12,8 +14,10 @@ resource "aws_ecr_repository" "this" {
   tags = merge(var.tags, { "Name" = var.name })
 }
 
+# --------------------------------------------------------------------------------
 # Amazon ECR Lifecycle Policy
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_lifecycle_policy
+# --------------------------------------------------------------------------------
 
 resource "aws_ecr_lifecycle_policy" "this" {
   policy     = templatefile(var.path, var.vars)

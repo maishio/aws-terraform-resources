@@ -1,5 +1,7 @@
-# Amazon ECR
+# --------------------------------------------------------------------------------
+# Amazon ECR　Repository
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecr_repository
+# --------------------------------------------------------------------------------
 
 variable "force_delete" {
   description = "If true, will delete the repository even if it contains images."
