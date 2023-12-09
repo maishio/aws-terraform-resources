@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon EventBridge Rule
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_rule
+# --------------------------------------------------------------------------------
 
 variable "description" {
   description = "Description of the rule."

@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon Event Bridge Event Target
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_target
+# --------------------------------------------------------------------------------
 
 resource "aws_cloudwatch_event_target" "this" {
   arn            = var.arn

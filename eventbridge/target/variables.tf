@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # Amazon EventBridge Target
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_event_target
+# --------------------------------------------------------------------------------
 
 variable "arn" {
   description = "ARN of the target."
