@@ -19,14 +19,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_eip"></a> [eip](#output\_eip) | n/a |
-
-## Usage
-
-```hcl
-module "elastic_ip" {
-  source = "git::https://github.com/maishio/terraform-aws-resources.git//vpc"
-  name   = "${var.tags.alias}-${var.tags.env}-eip"
-  tags   = var.tags
-  vpc    = true
-}
-```
