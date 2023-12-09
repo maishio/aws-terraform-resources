@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS CloudTrail
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudtrail
+# --------------------------------------------------------------------------------
 
 resource "aws_cloudtrail" "this" {
   cloud_watch_logs_group_arn    = var.cloud_watch_logs_group_arn

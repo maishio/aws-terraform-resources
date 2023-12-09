@@ -1,5 +1,7 @@
+# --------------------------------------------------------------------------------
 # AWS CloudTrail
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudtrail
+# --------------------------------------------------------------------------------
 
 variable "cloud_watch_logs_group_arn" {
   description = "Log group name using an ARN that represents the log group to which CloudTrail logs will be delivered."
