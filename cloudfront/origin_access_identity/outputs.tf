@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudfront_origin_access_identity" {
-  description = "Amazon CloudFront Origin Access Identity resource."
-  value       = aws_cloudfront_origin_access_identity.this
+  value = aws_cloudfront_origin_access_identity.this
 }

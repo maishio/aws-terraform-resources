@@ -20,4 +20,4 @@
 
 | Name                                                                                                                                | Description                                       |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
-| <a name="output_cloudfront_origin_access_control"></a> [cloudfront_origin_access_control](#output_cloudfront_origin_access_control) | Amazon CloudFront Origin Access Control resource. |
+| <a name="output_cloudfront_origin_access_control"></a> [cloudfront_origin_access_control](#output_cloudfront_origin_access_control) | n/a |

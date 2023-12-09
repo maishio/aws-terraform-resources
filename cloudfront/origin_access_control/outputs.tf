@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudfront_origin_access_control" {
-  description = "Amazon CloudFront Origin Access Control resource."
-  value       = aws_cloudfront_origin_access_control.this
+  value = aws_cloudfront_origin_access_control.this
 }

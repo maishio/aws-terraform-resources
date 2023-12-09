@@ -16,4 +16,4 @@
 
 | Name                                                                                                                                   | Description                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| <a name="output_cloudfront_origin_access_identity"></a> [cloudfront_origin_access_identity](#output_cloudfront_origin_access_identity) | Amazon CloudFront Origin Access Identity resource. |
+| <a name="output_cloudfront_origin_access_identity"></a> [cloudfront_origin_access_identity](#output_cloudfront_origin_access_identity) | n/a |

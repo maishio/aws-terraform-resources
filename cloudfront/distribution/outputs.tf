@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudfront_distribution" {
-  description = "Amazon CloudFront Distribution resource."
-  value       = aws_cloudfront_distribution.this
+  value = aws_cloudfront_distribution.this
 }

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "cloudfront_response_headers_policy" {
-  description = "Amazon CloudFront Response Header Policy resource."
-  value       = aws_cloudfront_response_headers_policy.this
+  value = aws_cloudfront_response_headers_policy.this
 }

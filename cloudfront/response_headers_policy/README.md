@@ -20,4 +20,4 @@
 
 | Name                                                                                                                                      | Description                                        |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| <a name="output_cloudfront_response_headers_policy"></a> [cloudfront_response_headers_policy](#output_cloudfront_response_headers_policy) | Amazon CloudFront Response Header Policy resource. |
+| <a name="output_cloudfront_response_headers_policy"></a> [cloudfront_response_headers_policy](#output_cloudfront_response_headers_policy) | n/a |

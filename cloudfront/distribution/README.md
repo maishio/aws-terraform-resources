@@ -54,4 +54,4 @@
 
 | Name                                                                                                     | Description                              |
 | -------------------------------------------------------------------------------------------------------- | ---------------------------------------- |
-| <a name="output_cloudfront_distribution"></a> [cloudfront_distribution](#output_cloudfront_distribution) | Amazon CloudFront Distribution resource. |
+| <a name="output_cloudfront_distribution"></a> [cloudfront_distribution](#output_cloudfront_distribution) | n/a |
