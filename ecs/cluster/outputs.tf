@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "ecs_cluster" {
-  description = "Amazon ECS Cluster resource."
-  value       = aws_ecs_cluster.this
+  value = aws_ecs_cluster.this
 }

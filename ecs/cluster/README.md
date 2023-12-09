@@ -22,4 +22,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ecs_cluster"></a> [ecs\_cluster](#output\_ecs\_cluster) | Amazon ECS Cluster resource. |
+| <a name="output_ecs_cluster"></a> [ecs\_cluster](#output\_ecs\_cluster) | n/a |

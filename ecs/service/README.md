@@ -30,4 +30,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ecs_service"></a> [ecs\_service](#output\_ecs\_service) | Amazon ECS Service resource. |
+| <a name="output_ecs_service"></a> [ecs\_service](#output\_ecs\_service) | n/a |

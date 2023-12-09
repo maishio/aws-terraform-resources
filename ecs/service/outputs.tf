@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "ecs_service" {
-  description = "Amazon ECS Service resource."
-  value       = aws_ecs_service.this
+  value = aws_ecs_service.this
 }
