@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "wafv2_web_acl_association" {
-  description = "AWS WAFv2 Web ACL Association resource."
-  value       = aws_wafv2_web_acl_association.this
+  value = aws_wafv2_web_acl_association.this
 }

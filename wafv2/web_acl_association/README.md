@@ -17,4 +17,4 @@
 
 | Name                                                                                                           | Description                             |
 | -------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <a name="output_wafv2_web_acl_association"></a> [wafv2_web_acl_association](#output_wafv2_web_acl_association) | AWS WAFv2 Web ACL Association resource. |
+| <a name="output_wafv2_web_acl_association"></a> [wafv2_web_acl_association](#output_wafv2_web_acl_association) | n/a |

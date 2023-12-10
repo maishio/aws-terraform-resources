@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "wafv2_web_acl" {
-  description = "AWS WAFv2 Web ACL resource."
-  value       = aws_wafv2_web_acl.this
+  value = aws_wafv2_web_acl.this
 }

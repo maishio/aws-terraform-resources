@@ -23,4 +23,4 @@
 
 | Name                                                                       | Description                 |
 | -------------------------------------------------------------------------- | --------------------------- |
-| <a name="output_wafv2_web_acl"></a> [wafv2_web_acl](#output_wafv2_web_acl) | AWS WAFv2 Web ACL resource. |
+| <a name="output_wafv2_web_acl"></a> [wafv2_web_acl](#output_wafv2_web_acl) | n/a |
