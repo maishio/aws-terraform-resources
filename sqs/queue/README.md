@@ -32,4 +32,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sqs_queue"></a> [sqs\_queue](#output\_sqs\_queue) | Amazon SQS Queue resource. |
+| <a name="output_sqs_queue"></a> [sqs\_queue](#output\_sqs\_queue) | n/a |

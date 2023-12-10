@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sqs_queue_policy" {
-  description = "Amazon SQS Queue Policy resource."
-  value       = aws_sqs_queue_policy.this
+  value = aws_sqs_queue_policy.this
 }

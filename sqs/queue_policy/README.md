@@ -18,5 +18,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sqs_queue_policy"></a> [sqs\_queue\_policy](#output\_sqs\_queue\_policy) | Amazon SQS Queue Policy resource. |
-<!-- END_TF_DOCS -->
+| <a name="output_sqs_queue_policy"></a> [sqs\_queue\_policy](#output\_sqs\_queue\_policy) | n/a |

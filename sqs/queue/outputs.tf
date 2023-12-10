@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sqs_queue" {
-  description = "Amazon SQS Queue resource."
-  value       = aws_sqs_queue.this
+  value = aws_sqs_queue.this
 }
