@@ -19,4 +19,4 @@
 
 | Name                                                                                                                                                                          | Description                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| <a name="output_s3_bucket_server_side_encryption_configuration"></a> [s3_bucket_server_side_encryption_configuration](#output_s3_bucket_server_side_encryption_configuration) | Amazon S3 Bucket resource. |
+| <a name="output_s3_bucket_server_side_encryption_configuration"></a> [s3_bucket_server_side_encryption_configuration](#output_s3_bucket_server_side_encryption_configuration) | n/a |

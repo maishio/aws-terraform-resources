@@ -18,4 +18,4 @@
 
 | Name                                                           | Description                |
 | -------------------------------------------------------------- | -------------------------- |
-| <a name="output_s3_object"></a> [s3_object](#output_s3_object) | Amazon S3 Object resource. |
+| <a name="output_s3_object"></a> [s3_object](#output_s3_object) | n/a |

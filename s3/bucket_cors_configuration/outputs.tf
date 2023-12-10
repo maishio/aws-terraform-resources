@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_cors_configuration" {
-  description = "Amazon S3 Bucket CORS Configuration resource."
-  value       = aws_s3_bucket_cors_configuration.this
+  value = aws_s3_bucket_cors_configuration.this
 }

@@ -18,4 +18,4 @@
 
 | Name                                                                                                                                      | Description                                         |
 | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------- |
-| <a name="output_s3_bucket_accelerate_configuration"></a> [s3_bucket_accelerate_configuration](#output_s3_bucket_accelerate_configuration) | Amazon S3 Bucket Accelerate Configuration resource. |
+| <a name="output_s3_bucket_accelerate_configuration"></a> [s3_bucket_accelerate_configuration](#output_s3_bucket_accelerate_configuration) | n/a |

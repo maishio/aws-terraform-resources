@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_server_side_encryption_configuration" {
-  description = "Amazon S3 Bucket resource."
-  value       = aws_s3_bucket_server_side_encryption_configuration.this
+  value = aws_s3_bucket_server_side_encryption_configuration.this
 }

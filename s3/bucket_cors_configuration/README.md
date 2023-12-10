@@ -17,4 +17,4 @@
 
 | Name                                                                                                                    | Description                                   |
 | ----------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- |
-| <a name="output_s3_bucket_cors_configuration"></a> [s3_bucket_cors_configuration](#output_s3_bucket_cors_configuration) | Amazon S3 Bucket CORS Configuration resource. |
+| <a name="output_s3_bucket_cors_configuration"></a> [s3_bucket_cors_configuration](#output_s3_bucket_cors_configuration) | n/a |

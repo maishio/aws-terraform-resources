@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_versioning" {
-  description = "Amazon S3 Bucket Versioning resource."
-  value       = aws_s3_bucket_versioning.this
+  value = aws_s3_bucket_versioning.this
 }

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_policy" {
-  description = "Amazon S3 Bucket Policy resource."
-  value       = aws_s3_bucket_policy.this
+  value = aws_s3_bucket_policy.this
 }

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_object" {
-  description = "Amazon S3 Object resource."
-  value       = aws_s3_object.this
+  value = aws_s3_object.this
 }

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_logging" {
-  description = "Amazon S3 Bucket Logging resource."
-  value       = aws_s3_bucket_logging.this
+  value = aws_s3_bucket_logging.this
 }

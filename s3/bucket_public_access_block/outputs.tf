@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_public_access_block" {
-  description = "Amazon S3 Bucket Public Access Block resource."
-  value       = saws_s3_bucket_public_access_block3_bucket.this
+  value = saws_s3_bucket_public_access_block3_bucket.this
 }

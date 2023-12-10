@@ -17,4 +17,4 @@
 
 | Name                                                                                            | Description                           |
 | ----------------------------------------------------------------------------------------------- | ------------------------------------- |
-| <a name="output_s3_bucket_versioning"></a> [s3_bucket_versioning](#output_s3_bucket_versioning) | Amazon S3 Bucket Versioning resource. |
+| <a name="output_s3_bucket_versioning"></a> [s3_bucket_versioning](#output_s3_bucket_versioning) | n/a |

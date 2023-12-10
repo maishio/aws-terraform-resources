@@ -17,4 +17,4 @@
 
 | Name                                                                                                                                   | Description                                        |
 | -------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- |
-| <a name="output_s3_bucket_lifecycle_configuration"></a> [s3_bucket_lifecycle_configuration](#output_s3_bucket_lifecycle_configuration) | Amazon S3 Bucket Lifecycle Configuration resource. |
+| <a name="output_s3_bucket_lifecycle_configuration"></a> [s3_bucket_lifecycle_configuration](#output_s3_bucket_lifecycle_configuration) | n/a |

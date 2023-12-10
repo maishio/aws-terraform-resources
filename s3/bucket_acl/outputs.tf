@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_acl" {
-  description = "Amazon S3 Bucket ACL resource."
-  value       = aws_s3_bucket_acl.this
+  value = aws_s3_bucket_acl.this
 }

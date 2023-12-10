@@ -17,4 +17,4 @@
 
 | Name                                                                                                  | Description                             |
 | ----------------------------------------------------------------------------------------------------- | --------------------------------------- |
-| <a name="output_s3_bucket_notification"></a> [s3_bucket_notification](#output_s3_bucket_notification) | Amazon S3 Bucket Notification resource. |
+| <a name="output_s3_bucket_notification"></a> [s3_bucket_notification](#output_s3_bucket_notification) | n/a |

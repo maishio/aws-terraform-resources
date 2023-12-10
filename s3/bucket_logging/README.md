@@ -18,4 +18,4 @@
 
 | Name                                                                                   | Description                        |
 | -------------------------------------------------------------------------------------- | ---------------------------------- |
-| <a name="output_s3_bucket_logging"></a> [s3_bucket_logging](#output_s3_bucket_logging) | Amazon S3 Bucket Logging resource. |
+| <a name="output_s3_bucket_logging"></a> [s3_bucket_logging](#output_s3_bucket_logging) | n/a |

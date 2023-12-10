@@ -18,4 +18,4 @@
 
 | Name                                                           | Description                |
 | -------------------------------------------------------------- | -------------------------- |
-| <a name="output_s3_bucket"></a> [s3_bucket](#output_s3_bucket) | Amazon S3 Bucket resource. |
+| <a name="output_s3_bucket"></a> [s3_bucket](#output_s3_bucket) | n/a |

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_ownership_controls" {
-  description = "Amazon S3 Bucket resource."
-  value       = aws_s3_bucket_ownership_controls.this
+  value = aws_s3_bucket_ownership_controls.this
 }

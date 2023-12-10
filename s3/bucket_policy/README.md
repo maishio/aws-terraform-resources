@@ -18,4 +18,4 @@
 
 | Name                                                                                | Description                       |
 | ----------------------------------------------------------------------------------- | --------------------------------- |
-| <a name="output_s3_bucket_policy"></a> [s3_bucket_policy](#output_s3_bucket_policy) | Amazon S3 Bucket Policy resource. |
+| <a name="output_s3_bucket_policy"></a> [s3_bucket_policy](#output_s3_bucket_policy) | n/a |

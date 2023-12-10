@@ -17,4 +17,4 @@
 
 | Name                                                                                                                    | Description                |
 | ----------------------------------------------------------------------------------------------------------------------- | -------------------------- |
-| <a name="output_s3_bucket_ownership_controls"></a> [s3_bucket_ownership_controls](#output_s3_bucket_ownership_controls) | Amazon S3 Bucket resource. |
+| <a name="output_s3_bucket_ownership_controls"></a> [s3_bucket_ownership_controls](#output_s3_bucket_ownership_controls) | n/a |

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket" {
-  description = "Amazon S3 Bucket resource."
-  value       = aws_s3_bucket.this
+  value = aws_s3_bucket.this
 }

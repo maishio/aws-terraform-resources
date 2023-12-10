@@ -20,4 +20,4 @@
 
 | Name                                                                                                                       | Description                                    |
 | -------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------- |
-| <a name="output_s3_bucket_public_access_block"></a> [s3_bucket_public_access_block](#output_s3_bucket_public_access_block) | Amazon S3 Bucket Public Access Block resource. |
+| <a name="output_s3_bucket_public_access_block"></a> [s3_bucket_public_access_block](#output_s3_bucket_public_access_block) | n/a |

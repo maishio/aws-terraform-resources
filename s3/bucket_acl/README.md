@@ -18,4 +18,4 @@
 
 | Name                                                                       | Description                    |
 | -------------------------------------------------------------------------- | ------------------------------ |
-| <a name="output_s3_bucket_acl"></a> [s3_bucket_acl](#output_s3_bucket_acl) | Amazon S3 Bucket ACL resource. |
+| <a name="output_s3_bucket_acl"></a> [s3_bucket_acl](#output_s3_bucket_acl) | n/a |

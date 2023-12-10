@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_lifecycle_configuration" {
-  description = "Amazon S3 Bucket Lifecycle Configuration resource."
-  value       = aws_s3_bucket_lifecycle_configuration.this
+  value = aws_s3_bucket_lifecycle_configuration.this
 }

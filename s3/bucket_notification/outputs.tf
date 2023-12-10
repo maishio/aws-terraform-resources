@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "s3_bucket_notification" {
-  description = "Amazon S3 Bucket Notification resource."
-  value       = aws_s3_bucket_notification.this
+  value = aws_s3_bucket_notification.this
 }
