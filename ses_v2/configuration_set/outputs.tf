@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sesv2_configuration_set" {
-  description = "Amazon SESv2 (Simple Email V2) Configuration Set resource."
-  value       = aws_sesv2_configuration_set.this
+  value = aws_sesv2_configuration_set.this
 }
