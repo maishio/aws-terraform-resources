@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sns_topic" {
-  description = "Amazon SNS Topic resource."
-  value       = aws_sns_topic.this
+  value = aws_sns_topic.this
 }

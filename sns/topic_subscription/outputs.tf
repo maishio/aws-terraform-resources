@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sns_topic_subscription" {
-  description = "Amazon SNS Topic Subscription resource."
-  value       = aws_sns_topic_subscription.this
+  value = aws_sns_topic_subscription.this
 }

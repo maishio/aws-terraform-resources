@@ -18,4 +18,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sns_topic_policy"></a> [sns\_topic\_policy](#output\_sns\_topic\_policy) | Amazon SNS Topic Policy resource. |
+| <a name="output_sns_topic_policy"></a> [sns\_topic\_policy](#output\_sns\_topic\_policy) | n/a |

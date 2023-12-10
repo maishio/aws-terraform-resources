@@ -22,4 +22,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sns_topic"></a> [sns\_topic](#output\_sns\_topic) | Amazon SNS Topic resource. |
+| <a name="output_sns_topic"></a> [sns\_topic](#output\_sns\_topic) | n/a |

@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "sns_topic_policy" {
-  description = "Amazon SNS Topic Policy resource."
-  value       = aws_sns_topic_policy.this
+  value = aws_sns_topic_policy.this
 }

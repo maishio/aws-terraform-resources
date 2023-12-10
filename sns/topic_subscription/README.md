@@ -19,4 +19,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_sns_topic_subscription"></a> [sns\_topic\_subscription](#output\_sns\_topic\_subscription) | Amazon SNS Topic Subscription resource. |
+| <a name="output_sns_topic_subscription"></a> [sns\_topic\_subscription](#output\_sns\_topic\_subscription) | n/a |
