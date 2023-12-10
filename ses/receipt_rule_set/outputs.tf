@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "ses_receipt_rule_set" {
-  description = "Amazon SES Receipt Rule Set resource."
-  value       = aws_ses_receipt_rule_set.this
+  value = aws_ses_receipt_rule_set.this
 }

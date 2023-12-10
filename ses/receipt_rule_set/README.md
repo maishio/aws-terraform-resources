@@ -16,4 +16,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_ses_receipt_rule_set"></a> [ses\_receipt\_rule\_set](#output\_ses\_receipt\_rule\_set) | Amazon SES Receipt Rule Set resource. |
+| <a name="output_ses_receipt_rule_set"></a> [ses\_receipt\_rule\_set](#output\_ses\_receipt\_rule\_set) | n/a |
