@@ -19,6 +19,7 @@
     // スペルチェック除外ワード
     "cSpell.words": [
       "apigatewayv",
+      "docdb",
       "redrive",
       "sesv",
       "templatefile"
