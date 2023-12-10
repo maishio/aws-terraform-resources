@@ -21,4 +21,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_route53_zone"></a> [route53\_zone](#output\_route53\_zone) | Amazon Route53 Hosted Zone resource. |
+| <a name="output_route53_zone"></a> [route53\_zone](#output\_route53\_zone) | n/a |

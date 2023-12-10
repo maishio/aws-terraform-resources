@@ -21,4 +21,4 @@
 
 | Name | Description |
 |------|-------------|
-| <a name="output_route53_record"></a> [route53\_record](#output\_route53\_record) | Amazon Route53 record resource. |
+| <a name="output_route53_record"></a> [route53\_record](#output\_route53\_record) | n/a |

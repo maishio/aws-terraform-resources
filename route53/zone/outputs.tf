@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "route53_zone" {
-  description = "Amazon Route53 Hosted Zone resource."
-  value       = aws_route53_zone.this
+  value = aws_route53_zone.this
 }

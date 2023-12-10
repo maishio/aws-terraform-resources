@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "route53_record" {
-  description = "Amazon Route53 record resource."
-  value       = aws_route53_record.this
+  value = aws_route53_record.this
 }
