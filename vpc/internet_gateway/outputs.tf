@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "internet_gateway" {
-  description = "Amazon VPC Internet Gateway resource."
-  value       = aws_internet_gateway.this
+  value = aws_internet_gateway.this
 }

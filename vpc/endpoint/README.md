@@ -27,39 +27,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_vpc_endpoint"></a> [vpc\_endpoint](#output\_vpc\_endpoint) | n/a |
-
-## Usage
-
-```hcl
-
-## Create a security group for the endpoint
-
-module "endpoint_sg" {
-  source              = "git::https://github.com/maishio/terraform-aws-resources.git//security_group"
-  security_group_name = "${var.tags.service}-${var.tags.env}-endpoint-sg"
-  tags                = var.tags
-  vpc_id              = module.vpc.vpc.id
-  ingress_rule = {
-    0 = {
-      from_port   = 443,
-      to_port     = 443,
-      protocol    = "tcp"
-      cidr_blocks = ["0.0.0.0/0"]
-    }
-  }
-}
-
-## Create an SSM endpoint within the private subnet
-
-module "ssm_endpoint" {
-  source             = "git::https://github.com/maishio/terraform-aws-resources.git//endpoint"
-  endpoint_name      = "${var.tags.service}-${var.tags.env}-ssm-endpoint"
-  path               = "${path.module}/files/template/endpoint_policy.json.tpl"
-  security_group_ids = [module.endpoint_sg.security_group.id]
-  service_name       = "com.amazonaws.${var.region.id}.ssm"
-  subnet_ids         = [module.pri_subnet.subnet.*.id]
-  tags               = var.tags
-  vpc_endpoint_type  = "Interface"
-  vpc_id             = module.vpc.vpc.id
-}
-```

@@ -18,4 +18,4 @@
 
 | Name                                                                                | Description                           |
 | ----------------------------------------------------------------------------------- | ------------------------------------- |
-| <a name="output_internet_gateway"></a> [internet_gateway](#output_internet_gateway) | Amazon VPC Internet Gateway resource. |
+| <a name="output_internet_gateway"></a> [internet_gateway](#output_internet_gateway) | n/a |

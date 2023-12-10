@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "flow_log" {
-  description = "Amazon VPC Flow Log resource."
-  value       = aws_flow_log.this
+  value = aws_flow_log.this
 }

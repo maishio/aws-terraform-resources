@@ -20,34 +20,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_subnet"></a> [subnet](#output\_subnet) | n/a |
-
-## Usage
-
-```hcl
-
-# Current Availability Zones
-
-data "aws_availability_zones" "this" {
-  state = "available"
-}
-
-# Create Subnets
-
-module "public_subnet" {
-  source = "git::https://github.com/maishio/terraform-aws-resources.git//subnet"
-  vpc_id = module.vpc.vpc.id
-  subnets = [
-    {
-      availability_zone = data.aws_availability_zones.this.names[0]
-      cidr_block        = "10.0.0.0/24"
-      name              = "${var.tags.service}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[0]}",
-    },
-    {
-      availability_zone = data.aws_availability_zones.this.names[1]
-      cidr_block        = "10.0.1.0/24"
-      name              = "${var.tags.service}-${var.tags.env}-pub-${data.aws_availability_zones.this.names[1]}",
-    },
-  ]
-  tags = var.tags
-}
-```

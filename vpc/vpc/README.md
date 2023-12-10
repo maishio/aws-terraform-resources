@@ -21,4 +21,4 @@
 
 | Name                                         | Description          |
 | -------------------------------------------- | -------------------- |
-| <a name="output_vpc"></a> [vpc](#output_vpc) | Amazon VPC resource. |
+| <a name="output_vpc"></a> [vpc](#output_vpc) | n/a |

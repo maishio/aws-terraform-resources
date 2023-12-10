@@ -24,30 +24,3 @@
 | Name | Description |
 |------|-------------|
 | <a name="output_security_group"></a> [security\_group](#output\_security\_group) | n/a |
-
-## Usage
-
-```hcl
-module "security_group" {
-  source              = "git::https://github.com/maishio/terraform-aws-resources.git//security_group"
-  security_group_name = "${var.tags.service}-${var.tags.env}-alb-sg"
-  tags                = var.tags
-  vpc_id              = var.vpc_id
-  ingress_rule = {
-    0 = {
-      cidr_blocks = ["13.xxx.xxx.xxx/32"]
-      description = "Branch Office A"
-      from_port   = 443
-      protocol    = "tcp"
-      to_port     = 443
-    },
-    1 = {
-      cidr_blocks = ["13.xxx.xxx.xxx/32"]
-      description = "Branch Office B"
-      from_port   = 443
-      protocol    = "tcp"
-      to_port     = 443
-    }
-  }
-}
-```

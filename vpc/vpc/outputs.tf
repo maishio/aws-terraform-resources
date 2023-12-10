@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 output "vpc" {
-  description = "Amazon VPC resource."
-  value       = aws_vpc.this
+  value = aws_vpc.this
 }

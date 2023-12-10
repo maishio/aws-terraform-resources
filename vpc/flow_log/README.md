@@ -30,4 +30,4 @@
 
 | Name                                                        | Description                   |
 | ----------------------------------------------------------- | ----------------------------- |
-| <a name="output_flow_log"></a> [flow_log](#output_flow_log) | Amazon VPC Flow Log resource. |
+| <a name="output_flow_log"></a> [flow_log](#output_flow_log) | n/a |
