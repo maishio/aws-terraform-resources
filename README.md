@@ -13,6 +13,7 @@ To use the code in this repository, the following software must be installed.
 
 This repository includes Terraform configurations for the following AWS resources:
 
+- [Amazon API Gateway](./apigateway)
 - [Amazon API Gateway V2](./apigateway_v2)
 - [Amazon Athena](./athena)
 - [Amazon CloudFront](./cloudfront)
