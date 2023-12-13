@@ -1,4 +1,4 @@
-# Amazon API Integration Response
+# Amazon API Gateway Integration Response
 
 ## Resources
 
