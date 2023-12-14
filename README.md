@@ -34,6 +34,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon SNS](./sns)
 - [Amazon SQS](./sqs)
 - [Amazon VPC](./vpc)
+- [AWS Batch](./batch)
 - [AWS Certificate Manager](./acm)
 - [AWS CloudTrail](./cloudtrail)
 - [AWS CodeCommit](./codecommit)
