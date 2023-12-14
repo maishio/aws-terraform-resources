@@ -2,7 +2,7 @@
 
 ## Resources
 
-This repository includes Terraform configurations for the following AWS Secrets Manager resources:
+This repository includes Terraform configurations for the following AWS Security Hub resources:
 
 - [AWS Security Hub Account](./account)
 - [AWS Security Hub Product Subscription](./product_subscription)
