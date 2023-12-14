@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 resource "aws_securityhub_standards_subscription" "this" {
-  for_each      = var.standards_subscriptions
-  standards_arn = each.value.standards_arn
+  standards_arn = var.standards_arn
 }
