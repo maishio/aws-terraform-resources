@@ -4,6 +4,5 @@
 # --------------------------------------------------------------------------------
 
 resource "aws_securityhub_product_subscription" "this" {
-  for_each    = var.product_subscriptions
-  product_arn = each.value.product_arn
+  product_arn = var.product_arn
 }
