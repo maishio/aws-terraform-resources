@@ -25,6 +25,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon ECR](./ecr)
 - [Amazon ECS](./ecs)
 - [Amazon EFS](./efs)
+- [Amazon ElastiCache](./elasticache)
 - [Amazon EventBridge](./eventbridge)
 - [Amazon GuardDuty](./guardduty)
 - [Amazon RDS](./rds)
