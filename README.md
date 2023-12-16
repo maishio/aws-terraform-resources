@@ -38,6 +38,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon VPC](./vpc)
 - [AWS Batch](./batch)
 - [AWS Certificate Manager](./acm)
+- [AWS CloudFormation](./cloudformation)
 - [AWS CloudTrail](./cloudtrail)
 - [AWS CodeCommit](./codecommit)
 - [AWS Config](./config)
