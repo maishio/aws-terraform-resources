@@ -43,6 +43,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS CloudTrail](./cloudtrail)
 - [AWS CodeCommit](./codecommit)
 - [AWS Config](./config)
+- [AWS Glue](./glue)
 - [AWS IAM](./iam)
 - [AWS KMS](./kms)
 - [AWS Lambda](./lambda)
