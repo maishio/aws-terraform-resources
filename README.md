@@ -30,6 +30,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon EventBridge](./eventbridge)
 - [Amazon GuardDuty](./guardduty)
 - [Amazon Inspector](./inspector)
+- [Amazon Inspector Classic](./inspector_classic)
 - [Amazon RDS](./rds)
 - [Amazon Route53](./route53)
 - [Amazon S3](./s3)
