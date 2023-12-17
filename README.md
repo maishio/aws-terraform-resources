@@ -50,6 +50,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS IAM Access Analyzer](./iam_accessanalyzer)
 - [AWS KMS](./kms)
 - [AWS Lambda](./lambda)
+- [AWS Resource Groups](./resourcegroups)
 - [AWS Secrets Manager](./secretsmanager)
 - [AWS Security Hub](./securityhub)
 - [AWS Step Functions](./sfn)
