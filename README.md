@@ -29,6 +29,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [Amazon ElastiCache](./elasticache)
 - [Amazon EventBridge](./eventbridge)
 - [Amazon GuardDuty](./guardduty)
+- [Amazon Inspector](./inspector)
 - [Amazon RDS](./rds)
 - [Amazon Route53](./route53)
 - [Amazon S3](./s3)
