@@ -45,6 +45,7 @@ This repository includes Terraform configurations for the following AWS resource
 - [AWS Config](./config)
 - [AWS Glue](./glue)
 - [AWS IAM](./iam)
+- [AWS IAM Access Analyzer](./iam_accessanalyzer)
 - [AWS KMS](./kms)
 - [AWS Lambda](./lambda)
 - [AWS Secrets Manager](./secretsmanager)
